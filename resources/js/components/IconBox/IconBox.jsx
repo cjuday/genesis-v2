@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import React from 'react';
 import ReactVivus from 'react-vivus';
-import {Link} from "react-router-dom";
 
 const IconBox = ({ data, classOption }) => {
     return (
@@ -22,7 +21,7 @@ const IconBox = ({ data, classOption }) => {
                 <div className="desc">
                     <p>{data.desc}</p>
                 </div>
-                <Link to={data.link} className="link">{data.pageLink}</Link>
+                <a href={data.link} className="link">{data.pageLink}</a>
             </div>
         </div>
     )

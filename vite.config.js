@@ -12,7 +12,7 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    // optimizeDeps : {
-    //     exclude: ['prop-types','react-router-dom']
-    // }
+    optimizeDeps : {
+         exclude: ['react-dom']
+    }
 });

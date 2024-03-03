@@ -2,7 +2,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "dev": "vite",
+        "dev": "vite --force",
         "build": "vite build"
     },
     "devDependencies": {
@@ -12,7 +12,6 @@
         "vite": "^5.0.12"
     },
     "dependencies": {
-        "@inertiajs/inertia-react": "^0.8.1",
         "@inertiajs/react": "^1.0.14",
         "@vitejs/plugin-react": "^4.2.1",
         "aos": "^2.3.4",
@@ -36,7 +35,7 @@
         "react-spinners": "^0.13.8",
         "react-visibility-sensor": "^5.1.1",
         "react-vivus": "^0.0.2",
-        "swiper": "^11.0.5",
+        "swiper": "^11.0.6",
         "typewriter-effect": "^2.21.0",
         "vivus": "^0.4.6"
     }

@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 import PropTypes from "prop-types";
 import cn from "clsx";
-import { Navigation, Pagination, Thumbs, Autoplay, A11y } from "swiper";
+import { Navigation, Pagination, Thumbs, Autoplay, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 
