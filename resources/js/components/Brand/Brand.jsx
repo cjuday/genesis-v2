@@ -5,9 +5,9 @@ import {Link} from "react-router-dom";
 const Brand = ({ data }) => {
     return (
         <div className="brand">
-            <Link to={process.env.PUBLIC_URL + "/"}>
+            <a href={"/"}>
                 <img src={data.img_src} alt="client image" />
-            </Link>
+            </a>
         </div>
     )
 }

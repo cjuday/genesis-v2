@@ -1,4 +1,4 @@
-import { forwardRef } from "react";
+import React, { forwardRef } from "react";
 import PropTypes from "prop-types";
 import cn from "clsx";
 import { Navigation, Pagination, Thumbs, Autoplay, A11y } from "swiper/modules";
