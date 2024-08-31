@@ -22,7 +22,7 @@
         display: flex;
         align-items: center;
 
-        min-height: 80px;
+        min-height: 90px;
         // Responsive
         @media #{$tablet-device}{
             min-height: 110px;
@@ -84,6 +84,7 @@
 
         & .header-inner {
             background-color:  #272C3F;
+            background-image: url('../images/background/footer-bg.png');
         }
     }
 
@@ -150,9 +151,6 @@
     }
 }
 
-
-
-@import "header/search";
 @import "header/main-menu";
 @import "header/mobile-menu-toggle";
 @import "header/mobile-menu";

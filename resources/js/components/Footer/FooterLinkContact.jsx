@@ -7,7 +7,7 @@ const FooterLinkContact = () => {
             <div className="footer-widget-content">
                 <ul>
                     <i className="fa-solid fa-location-dot"></i> House # 320(1st Floor), Road # 04,<br/>
-Mirpur D.O.H.S, Dhaka-1216, Bangladesh<br/>
+                    <p className="ftr">Mirpur D.O.H.S, Dhaka-1216, Bangladesh</p>
                     
                     <i className="fa-solid fa-phone"></i>   880251040131 <br/>
 

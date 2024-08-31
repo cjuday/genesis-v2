@@ -10,7 +10,7 @@ import AOS from 'aos';
 const Certificate = React.lazy(() => import('../container/Certificate/CertContainer'));
 
 
-const Home = ({about}) => {
+const Home = ({about, certificates}) => {
     useEffect(() => {
         AOS.init();
     })
@@ -19,7 +19,7 @@ const Home = ({about}) => {
             <SEO title="Genesis - One Stop Business Soulution in Bangladesh" />
             <Header/>
             <HomeAbout data={about}/>  
-            <Certificate/>  
+            <Certificate data={certificates}/>  
             <Footer/>
             <ScrollToTop/>
        </React.Fragment>
