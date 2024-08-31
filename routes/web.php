@@ -16,6 +16,7 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'home']);
+Route::post('/change-language', [HomeController::class, 'changeLanguage'])->name('change-language');
 
 Route::get('/about', function () {
     return Inertia::render('About');

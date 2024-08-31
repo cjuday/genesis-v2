@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Inertia } from '@inertiajs/inertia';
+import { router } from '@inertiajs/react';
 import { useTranslation } from 'react-i18next'; 
 import France from '../../assets/images/flags/france.png';
 import UK from '../../assets/images/flags/united-kingdom.png';
@@ -9,23 +9,21 @@ import Italy from '../../assets/images/flags/italy.png';
 
 const NavBar = () => {
   const { t, i18n } = useTranslation();
-  const [language, setLanguage] = useState('en'); // Default to 'en'
 
   useEffect(() => {
     // Load language from localStorage or default to 'en'
     const savedLanguage = localStorage.getItem('language') || 'en';
-    setLanguage(savedLanguage);
     i18n.changeLanguage(savedLanguage);
   }, [i18n]);
 
   useEffect(() => {
     // Update localStorage whenever language changes
-    localStorage.setItem('language', language);
-  }, [language]);
+    localStorage.setItem('language', i18n.language);
+  }, [i18n.language]);
 
   const changeLanguage = (lang) => {
-    setLanguage(lang);
     i18n.changeLanguage(lang);
+    router.post('/change-language', { language: lang });
   };
 
   return (
@@ -45,26 +43,26 @@ const NavBar = () => {
         </li>
         <li className="nav-item dropdown">
           <a href="#" className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            {language === 'en' && <><img src={UK} className="flag" /> {t('english')}</>}
-            {language === 'fr' && <><img src={France} className="flag" /> {t('french')}</>}
-            {language === 'es' && <><img src={Spain} className="flag" /> {t('spanish')}</>}
-            {language === 'de' && <><img src={Germany} className="flag" /> {t('german')}</>}
-            {language === 'it' && <><img src={Italy} className="flag" /> {t('italian')}</>}
+            {i18n.language === 'en' && <><img src={UK} className="flag" /> {t('english')}</>}
+            {i18n.language === 'fr' && <><img src={France} className="flag" /> {t('french')}</>}
+            {i18n.language === 'es' && <><img src={Spain} className="flag" /> {t('spanish')}</>}
+            {i18n.language === 'de' && <><img src={Germany} className="flag" /> {t('german')}</>}
+            {i18n.language === 'it' && <><img src={Italy} className="flag" /> {t('italian')}</>}
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            {language !== 'en' && (
+            {i18n.language !== 'en' && (
               <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('en'); }}><img src={UK} className="flag" /> {t('english')}</a></li>
             )}
-            {language !== 'fr' && (
+            {i18n.language !== 'fr' && (
               <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('fr'); }}><img src={France} className="flag" /> {t('french')}</a></li>
             )}
-            {language !== 'es' && (
+            {i18n.language !== 'es' && (
               <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('es'); }}><img src={Spain} className="flag" /> {t('spanish')}</a></li>
             )}
-            {language !== 'de' && (
+            {i18n.language !== 'de' && (
               <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('de'); }}><img src={Germany} className="flag" /> {t('german')}</a></li>
             )}
-            {language !== 'it' && (
+            {i18n.language !== 'it' && (
               <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('it'); }}><img src={Italy} className="flag" /> {t('italian')}</a></li>
             )}
           </ul>

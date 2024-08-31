@@ -1,4 +1,5 @@
 import React, { Fragment, useState, useEffect } from 'react';
+import { router } from '@inertiajs/react';
 import { useTranslation } from 'react-i18next'; // Import useTranslation
 import Logo from '../../components/logo/Logo';
 import NavBar from '../../components/NavBar/NavBar';
@@ -46,7 +47,8 @@ const Header = () => {
   };
 
   const changeLanguage = (lang) => {
-    i18n.changeLanguage(lang); // Change language without reloading
+    i18n.changeLanguage(lang);
+    router.post('/change-language', { language: lang });
   };
 
   return (

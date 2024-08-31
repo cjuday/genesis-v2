@@ -2,8 +2,8 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { createInertiaApp } from '@inertiajs/react';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
-import { I18nextProvider } from 'react-i18next'; // Import I18nextProvider
-import i18n from './i18n'; // Import your i18n configuration
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n';
 import 'swiper/css';
 import 'aos/dist/aos.css';
 import './assets/scss/style.scss';

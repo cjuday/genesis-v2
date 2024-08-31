@@ -1,16 +1,15 @@
 import React, { useEffect } from "react";
 import SEO from '../components/SEO';
 import Header from '../partials/header/Header';
+import IntroSlider from "../container/IntroSlider/IntroSlider";
 import HomeAbout from '../components/About/HomeAbout';
+import BrandContainer from "../container/Brand/BrandContainer";
+import CertContainer from "../container/Certificate/CertContainer";
+import Footer from '../container/Footer/Footer';
 import ScrollToTop from '../components/ScrollToTop';
-import Footer from '../container/Footer/Footer'
-import ServiceIconBox from '../container/service/ServiceIconBox';
 import AOS from 'aos';
 
-const Certificate = React.lazy(() => import('../container/Certificate/CertContainer'));
-
-
-const Home = ({about, certificates}) => {
+const Home = ({slider, about, certificates, clients}) => {
     useEffect(() => {
         AOS.init();
     })
@@ -18,8 +17,10 @@ const Home = ({about, certificates}) => {
        <React.Fragment>
             <SEO title="Genesis - One Stop Business Soulution in Bangladesh" />
             <Header/>
-            <HomeAbout data={about}/>  
-            <Certificate data={certificates}/>  
+            <IntroSlider data={slider}/>
+            <HomeAbout data={about}/> 
+            <BrandContainer data={clients}/> 
+            <CertContainer data={certificates}/>  
             <Footer/>
             <ScrollToTop/>
        </React.Fragment>

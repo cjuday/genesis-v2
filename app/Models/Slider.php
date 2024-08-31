@@ -6,12 +6,12 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Stichoza\GoogleTranslate\GoogleTranslate;
 
-class About extends Model
+class Slider extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-    	'title', 'details', 'img1', 'img2', 'updated_by'
+        'img', 'title', 'title_2', 'title_3', 'title_4', 'visiblity', 'text_align','color','uploaded_by'
     ];
 
     public function translateFields($targetLanguage = 'en')
@@ -21,7 +21,9 @@ class About extends Model
 
         // Translate desired fields
         $this->title = $this->translateField($this->title, $tr);
-        $this->details = $this->translateField($this->details, $tr);
+        $this->title_2 = $this->translateField($this->title_2, $tr);
+        $this->title_3 = $this->translateField($this->title_3, $tr);
+        $this->title_4 = $this->translateField($this->title_4, $tr);
 
         return $this;
     }

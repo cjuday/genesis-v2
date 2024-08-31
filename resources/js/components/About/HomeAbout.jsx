@@ -1,18 +1,20 @@
 import React, {useState, useEffect} from "react";
+import { useTranslation } from "react-i18next";
 import SectionTitle from '../SectionTitles/SectionTitle';
 import SectionTitleTwo from '../SectionTitles/SectionTitleTwo';
 import Tilt from 'react-parallax-tilt';
 import { CONFIG } from "../../config";
 
 const HomeAbout = ({data}) => {
+    const { t } = useTranslation();
     const [scale] = useState(1.04);
     
     return (
-        <div className="section section-padding-t90 section-padding-bottom-200 text-center">
+        <div className="section section-padding-t90 section-padding-bottom-2x text-center">
             <div className="container">
 
                 <SectionTitle
-                    title="Welcome to Genesis-BD"
+                    title={t('welcome')}
                     subTitle=""
                 />
 
@@ -36,8 +38,8 @@ const HomeAbout = ({data}) => {
                     <div className="col-xl-5 col-lg-6 col-12" data-aos="fade-up" data-aos-delay="300">
                         <div className="about-content-area">
                             <SectionTitleTwo 
-                                subTitle="Every day brings new challenges"
-                                title="About Our Company"
+                                subTitle=""
+                                title={t('homeAboutHeader')}
                             />
                             <div dangerouslySetInnerHTML={{ __html: data.details}}/>
 

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Laravel</title>
+        <title>Genesis - One Stop Business Soulution in Bangladesh</title>
         @viteReactRefresh
         @vite(['resources/css/app.css','resources/js/app.jsx'])
         @inertiaHead

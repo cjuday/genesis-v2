@@ -5,7 +5,7 @@ import Brand from '../../components/Brand/Brand.jsx';
 import SectionTitleTwo from '../../components/SectionTitles/SectionTitleTwo';
 import Swiper, { SwiperSlide } from "../../components/swiper";
 
-const CertContainer = ({ data, classOption }) => {
+const CertContainer = ({ data, classOption="brand-section section" }) => {
     const { t } = useTranslation(); // Destructure t from useTranslation
 
     const sliderOptions = {
@@ -64,9 +64,6 @@ const CertContainer = ({ data, classOption }) => {
 
 CertContainer.propTypes = {
     classOption: PropTypes.string
-};
-CertContainer.defaultProps = {
-    classOption: "brand-section section"
 };
 
 export default CertContainer;
