@@ -16,6 +16,7 @@ class Slider extends Model
 
     public function translateFields($targetLanguage = 'en')
     {
+        $targetLanguage = $targetLanguage ?: 'en';
         $tr = new GoogleTranslate();
         $tr->setTarget($targetLanguage); // Set the target language
 

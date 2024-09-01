@@ -11,7 +11,6 @@ use App\Models\About;
 use App\Models\Certificates;
 use App\Models\Brand;
 use App\Models\Slider;
-use Illuminate\Contracts\Session\Session;
 
 class HomeController extends Controller
 {
