@@ -5,6 +5,7 @@ use Inertia\Inertia;
 
 //Controllers
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,9 +30,12 @@ Route::get('/services', function () {
     return Inertia::render('Services');
 });
 
+//Products
 Route::get('/products', function () {
     return Inertia::render('Products');
 });
+
+Route::get('/products/{category}/{selection}', [ProductController::class, 'index']);
 
 Route::get('/contact', function () {
     return Inertia::render('Contact');

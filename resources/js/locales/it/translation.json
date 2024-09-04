@@ -46,6 +46,21 @@
     "emailEmail": "Indirizzo email non valido",
     "emailRequired": "L'email è richiesta",
     "subjectRequired": "L'oggetto è richiesto",
-    "msgRequired": "Il messaggio è richiesto"
+    "msgRequired": "Il messaggio è richiesto",
+    "men": "Uomini",
+    "women": "Donne",
+    "kid": "Bambino",
+    "productHeader": "Lavoriamo con marchi audaci in cui crediamo",
+    "categoryTitle": "Categorie di Prodotti",
+    "All": "Tutti",
+    "T-shirts": "T-shirt",
+    "Polo": "Polo",
+    "Bottom": "Pantaloni",
+    "Shirts": "Camicie",
+    "Sweat_Shirts": "Felpe",
+    "Trousers": "Pantaloni",
+    "Sweaters": "Maglioni",
+    "Jacket": "Giacca",
+    "for" : "Per"
 }
   

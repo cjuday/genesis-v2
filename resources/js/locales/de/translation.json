@@ -46,7 +46,21 @@
     "emailEmail": "Ungültige E-Mail-Adresse",
     "emailRequired": "E-Mail ist erforderlich",
     "subjectRequired": "Betreff ist erforderlich",
-    "msgRequired": "Nachricht ist erforderlich"
-
+    "msgRequired": "Nachricht ist erforderlich",
+    "men": "Männer",
+    "women": "Frauen",
+    "kid": "Kind",
+    "productHeader": "Wir arbeiten mit mutigen Marken, an die wir glauben",
+    "categoryTitle": "Produktkategorien",
+    "All": "Alle",
+    "T-shirts": "T-Shirts",
+    "Polo": "Poloshirts",
+    "Bottom": "Hosen",
+    "Shirts": "Hemden",
+    "Sweat_Shirts": "Sweatshirts",
+    "Trousers": "Hosen",
+    "Sweaters": "Pullover",
+    "Jacket": "Jacke",
+    "for" : "Für den"
 }
   

@@ -46,6 +46,21 @@
     "emailEmail" : "Invalid email address",
     "emailRequired" : "Email is required",
     "subjectRequired" : "Subject is required",
-    "msgRequired" : "Message is required"
+    "msgRequired" : "Message is required",
+    "men" : "Men",
+    "women" : "Women",
+    "kid" : "Kid",
+    "productHeader": "We work with bold brands that we believe in",
+    "categoryTitle" : "Product Categories",
+    "All" : "All",
+    "T-shirts" : "T-shirts",
+    "Polo" : "Polo",
+    "Bottom": "Bottom",
+    "Shirts" : "Shirts",
+    "Sweat_Shirts" : "Sweat Shirts",
+    "Trousers" : "Trousers",
+    "Sweaters" : "Sweaters",
+    "Jacket" : "Jacket",
+    "for" : "For"
 }
   

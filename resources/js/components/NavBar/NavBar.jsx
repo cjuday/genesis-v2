@@ -47,7 +47,28 @@ const NavBar = () => {
         <li><a href="/"><span className="menu-text">{t('home')}</span></a></li>
         <li><a href="/about"><span className="menu-text">{t('about')}</span></a></li>
         <li><a href="/services"><span className="menu-text">{t('services')}</span></a></li>
-        <li><a href="/products"><span className="menu-text">{t('products')}</span></a></li>
+        <li className="nav-item dropdown">
+          <a href="/products" className="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span className="ts"></span>{t('products')}
+          </a>
+          <ul className="dropdown-menu pk1" aria-labelledby="navbarDropdownMenuLink1">
+            <li key="man">
+                <a href="/products/men" className="dropdown-item langli">
+                  {t('men')}
+                </a>
+            </li>
+            <li key="woman">
+                <a href="/products/women" className="dropdown-item langli">
+                  {t('women')}
+                </a>
+            </li>
+            <li key="kid">
+                <a href="/products/kid" className="dropdown-item langli">
+                  {t('kid')}
+                </a>
+            </li>
+          </ul>
+        </li>
         <li><a href="/contact"><span className="menu-text">{t('contact')}</span></a></li>
         <li className="nav-item dropdown" ref={dropdownRef}>
           <a href="#" className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -46,6 +46,21 @@
     "emailEmail": "Dirección de correo electrónico inválida",
     "emailRequired": "El correo electrónico es requerido",
     "subjectRequired": "El asunto es requerido",
-    "msgRequired": "El mensaje es requerido"
+    "msgRequired": "El mensaje es requerido",
+    "men": "Hombres",
+    "women": "Mujeres",
+    "kid": "Niño",
+    "productHeader": "Trabajamos con marcas audaces en las que creemos",
+    "categoryTitle": "Categorías de Productos",
+    "All": "Todo",
+    "T-shirts": "Camisetas",
+    "Polo": "Polo",
+    "Bottom": "Pantalones",
+    "Shirts": "Camisas",
+    "Sweat_Shirts": "Sudaderas",
+    "Trousers": "Pantalones",
+    "Sweaters": "Suéteres",
+    "Jacket": "Chaqueta",
+    "for" : "Pour"
 }
   
