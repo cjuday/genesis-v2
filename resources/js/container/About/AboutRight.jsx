@@ -28,8 +28,8 @@ const AboutRight = ({ title, description, img1, img2 }) => {
                             <SectionTitleTwo
                                 title={title}
                             />
-                            <div className="row row-cols-sm-2 row-cols-auto mb-3">
-                                {description}
+                            <div className="row row-cols-auto mb-3">
+                            <span style={{ textAlign: 'justify' }}><p>{description}</p></span>
                             </div>
                         </div>
                     </div>

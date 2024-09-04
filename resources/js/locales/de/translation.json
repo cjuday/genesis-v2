@@ -1,6 +1,7 @@
 {
     "home": "Startseite",
     "about": "Über uns",
+    "services": "Unsere Dienstleistungen",
     "products": "Produkte",
     "contact": "Kontakt",
     "english": "Englisch",
@@ -8,6 +9,15 @@
     "spanish": "Spanisch",
     "german": "Deutsch",
     "italian": "Italienisch",
+    "slider1title1": "Genesis Fashion & Design",
+    "slider1title2": "Seit 2005",
+    "slider2title1": "Ganzheitliche Bekleidungs-Lösung",
+    "slider2title2": "in Bangladesch",
+    "slider3title1": "Beschaffung",
+    "slider3title2": "Entwicklung",
+    "slider3title3": "Merchandising",
+    "slider3title4": "Qualitätssicherung",
+    "homeAbout": "Genesis Fashion & Design hat sich als eine umfassende Lösung für den globalen Bekleidungsmarkt etabliert, um die Erwartungen der Kunden zu erfüllen, indem es pünktlich hochwertige Produkte und Dienstleistungen anbietet. Genesis ist entschlossen, die fortschrittlichste und anspruchsvollste Expertise für die Herstellung des gewünschten Produkts zu beschaffen und seinen Kunden mit Vertrauen zu präsentieren: „SIE BEZEICHNEN ES, WIR STELLEN ES HER“.",
     "certificateHeader": "Wir sind einzigartig für unsere zertifizierten Partner",
     "footerSub": "Komplettlösung für Bekleidung in Bangladesch",
     "clientsHeader": "Unsere Kunden",
@@ -21,6 +31,22 @@
     "ourMissionTitle": "Unsere Mission",
     "ourMission": "GENESIS FASHION & DESIGN ist bestrebt, sowohl seine Produkte als auch seine Verantwortung gegenüber seinen Mitarbeitern kontinuierlich zu verbessern. Wir bemühen uns intensiv, höchste Kundenzufriedenheit durch pünktliche Lieferungen sowie eine verbesserte Qualität und Wertigkeit all unserer Produkte zu erreichen.",
     "valueTitle": "Wert",
-    "valueMsg": "Wir schätzen Beschäftigung und Teamarbeit überall dort, wo wir tätig sind, denn wir wissen, dass, wenn wir die Ärmel hochkrempeln und zusammenarbeiten, nichts außerhalb unserer Reichweite liegt. Der Stolz, den wir in jedes Produkt legen, das wir herstellen, und in jedes Leben, das wir berühren, zeigt sich durch unser Engagement gegenüber unseren Mitarbeitern, Kunden und Käufern weltweit."
+    "valueMsg": "Wir schätzen Beschäftigung und Teamarbeit überall dort, wo wir tätig sind, denn wir wissen, dass, wenn wir die Ärmel hochkrempeln und zusammenarbeiten, nichts außerhalb unserer Reichweite liegt. Der Stolz, den wir in jedes Produkt legen, das wir herstellen, und in jedes Leben, das wir berühren, zeigt sich durch unser Engagement gegenüber unseren Mitarbeitern, Kunden und Käufern weltweit.",
+    "serviceDetails1": "Beschaffung von zuverlässigen Bekleidungsherstellern und Exporteuren in Bangladesch.",
+    "serviceDetails2": "Beschaffung von Textilfabriken, Spinnereien, Herstellern und Lieferanten von Garnen, Accessoires und Zubehör in Bangladesch, China, Taiwan, Indien, Pakistan usw.",
+    "serviceDetails3": "Beschaffung und Bereitstellung verschiedener Arten von Mustern (SMS, FIT, Size-set, Proto, PP usw.) sowie von Accessoires/Zubehör gemäß den Anforderungen des Käufers.",
+    "serviceDetails4": "Kalkulation der Bekleidungs Preise und Verhandlung mit Bekleidungsfabriken im Namen des Käufers.",
+    "serviceDetails5": "Laufende Kommunikation mit dem Käufer über den gesamten Prozess.",
+    "serviceDetails6": "Erstellung eines Zeit- und Aktionsplans (T&A) für jede Bestellung/jedes Programm.",
+    "serviceDetails7": "Unsere Merchandiser und die Qualitätskontrollteam überwachen die Qualität der Stoffe, Accessoires/Zubehör und des Produktionsprozesses vom Beginn bis zur Lieferung.",
+    "serviceDetails8": "Überwachung des Versands der Waren zum Hafen, der Zollabfertigung, des Verladens auf das Schiff und Sicherstellung der Lieferung.",
+    "serviceDetails9": "Auswahl der geeigneten Fertigungseinheit, die den Anforderungen des Kunden in Bezug auf Qualität, Menge, Kosten und Compliance entspricht.",
+    "contactSuccess": "Ihre Anfrage wurde gesendet. Unser Team wird sich in Kürze mit Ihnen in Verbindung setzen.",
+    "nameRequired": "Name ist erforderlich",
+    "emailEmail": "Ungültige E-Mail-Adresse",
+    "emailRequired": "E-Mail ist erforderlich",
+    "subjectRequired": "Betreff ist erforderlich",
+    "msgRequired": "Nachricht ist erforderlich"
+
 }
   

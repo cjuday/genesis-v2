@@ -9,7 +9,7 @@ import Footer from '../container/Footer/Footer';
 import ScrollToTop from '../components/ScrollToTop';
 import AOS from 'aos';
 
-const Home = ({slider, about, certificates, clients}) => {
+const Home = () => {
     useEffect(() => {
         AOS.init();
     })
@@ -17,10 +17,10 @@ const Home = ({slider, about, certificates, clients}) => {
        <React.Fragment>
             <SEO title="Genesis - One Stop Business Soulution in Bangladesh" />
             <Header/>
-            <IntroSlider data={slider}/>
-            <HomeAbout data={about}/> 
-            <BrandContainer data={clients}/> 
-            <CertContainer data={certificates}/>  
+            <IntroSlider/>
+            <HomeAbout/> 
+            <BrandContainer/> 
+            <CertContainer/>  
             <Footer/>
             <ScrollToTop/>
        </React.Fragment>

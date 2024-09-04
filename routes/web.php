@@ -4,8 +4,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 //Controllers
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,13 +17,25 @@ use App\Http\Controllers\AboutController;
 |
 */
 
-Route::get('/', [HomeController::class, 'home']);
-Route::post('/change-language', [HomeController::class, 'changeLanguage'])->name('change-language');
+Route::get('/', function () {
+    return Inertia::render('Home');
+});
 
 Route::get('/about', function () {
     return Inertia::render('About');
 });
 
+Route::get('/services', function () {
+    return Inertia::render('Services');
+});
+
 Route::get('/products', function () {
     return Inertia::render('Products');
 });
+
+Route::get('/contact', function () {
+    return Inertia::render('Contact');
+});
+
+//mail send
+Route::post('/contact/send', [ContactController::class, 'sendEmail']);

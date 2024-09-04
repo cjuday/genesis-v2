@@ -1,11 +1,8 @@
-import React from 'react'
-import PropTypes from "prop-types";
-import {Link} from "react-router-dom";
-import { CONFIG } from '../../config';
+import React from 'react';
 
 const Intro =  ({data}) => {
     return (
-        <div className="intro-section overlay section" style={{backgroundImage: `url(${CONFIG.IMG_URL + data.img})`}}>
+        <div className="intro-section overlay section" style={{backgroundImage: `url(${data.img})`}}>
 
             <div className="container">
                 <div className="row">
@@ -16,7 +13,7 @@ const Intro =  ({data}) => {
                             <h2 className="title2" style={{color:`${data.color}`}}>{data.title_2}</h2>
                             <h2 className="title3" style={{color:`${data.color}`}}>{data.title_3}</h2>
                             <h2 className="title4" style={{color:`${data.color}`}}>{data.title_4}</h2>
-                            {/* <Link to={process.env.PUBLIC_URL + "/contact"} className="btn btn-primary btn-hover-secondary">Contact Us</Link> */}
+                            <a href={"/contact"} className="btn btn-primary btn-hover-secondary">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -26,10 +23,5 @@ const Intro =  ({data}) => {
         
     )
 }
-
-Intro.propTypes = {
-    data: PropTypes.object
-};
-  
 
 export default Intro

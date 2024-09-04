@@ -1,109 +1,79 @@
-import React, { useState } from 'react';
-import { useForm } from "react-hook-form";
+import React from 'react';
+import { useForm } from 'react-hook-form';
+import { yupResolver } from '@hookform/resolvers/yup';
+import * as yup from 'yup';
+import { router } from '@inertiajs/react';
+import { useTranslation } from 'react-i18next';
 
 const ContactFrom = () => {
-    const { register, handleSubmit, resetField, formState: { errors, isSubmitting } } = useForm({
-        mode: "onBlur"
+    const { t } = useTranslation();
+    // Define validation schema using Yup
+    const schema = yup.object().shape({
+        name: yup.string().required(t('nameRequired')),
+        email: yup.string().email(t('emailEmail')).required(t('emailRequired')),
+        subject: yup.string().required(t('subjectRequired')),
+        message: yup.string().required(t('msgRequired')),
     });
+        const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm({
+        resolver: yupResolver(schema),
+    });
+    const [msg, setMsg] = React.useState('');
 
-    const [msg, setMsg] = useState('');
-    const [errmsg, seterrMsg] = useState('');
-
-    const onSubmit = data => {
-        const url = "https://new.taiammumuday.com/api/mails";
-        fetch(url, {
-          method: "POST",
-          headers: {
-            "Content-type": "application/json"
-          },
-          body: JSON.stringify({
-            name: data.name,
-            email: data.email,
-            subject: data.subject,
-            message: data.message
-          })
-        })
-          .then((resp) => resp.json())
-          .then((data) => {
-            resetField("name");
-            resetField("email");
-            resetField("subject");
-            resetField("message");
-            setMsg(data.message);
-          })
-          .catch ((err) => {
-            console.error(err)
-          });
-      };
+    // Handle form submission
+    const onSubmit = (data) => {
+        router.post('/contact/send', data, {
+            onSuccess: () => {
+                setMsg(t('contactSuccess'));
+            }
+        });
+    };
 
     return (
         <div className="contact-form" data-aos="fade-up" data-aos-delay="300">
-            {msg &&
-            <p className='alert alert-success text-center'>{msg}</p>}
-            {errmsg &&
-            <p className='alert alert-danger text-center'>{errmsg}</p>}
+            {msg && <p className='alert alert-success text-center'>{msg}</p>}
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="row mb-n6">
                     <div className="col-md-6 col-12 mb-6">
                         <input
                             type="text"
                             placeholder="Your Name *"
-                            name="name"
-                            {...register("name", {
-                                required: "Name is required",
-                            })}
+                            {...register("name")}
                         />
-                        {errors?.name && <b className='text-danger'>x {errors.name?.message}</b>}
+                        {errors.name && <b className='text-danger'>x {errors.name.message}</b>}
                     </div>
                     <div className="col-md-6 col-12 mb-6">
                         <input
                             type="email"
-                            className=''
                             placeholder="Email *"
-                            name="email"
-                            {...register("email", {
-                                required: "Email is required",
-                                pattern: {
-                                    value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
-                                    message: "invalid email address",
-                                },
-                            })}
+                            {...register("email")}
                         />
-                        {errors?.email && <b className='text-danger'>x {errors.email?.message}</b>}
+                        {errors.email && <b className='text-danger'>x {errors.email.message}</b>}
                     </div>
                     <div className="col-md-12 col-12 mb-6">
                         <input
                             type="text"
                             placeholder="Subject *"
-                            name="subject"
-                            {...register("subject", {
-                                required: "Subject is required",
-                            })}
+                            {...register("subject")}
                         />
-                        {errors?.subject && <b className='text-danger'>x {errors.subject?.message}</b>}
+                        {errors.subject && <b className='text-danger'>x {errors.subject.message}</b>}
                     </div>
                     <div className="col-12 mb-6">
                         <textarea
-                            name="message"
                             placeholder="Message"
-                            {...register("message", {
-                                required: "Message is required",
-                            })}
+                            {...register("message")}
                         ></textarea>
-                        {errors?.message && <b className='text-danger'>x {errors.message?.message}</b>}
+                        {errors.message && <b className='text-danger'>x {errors.message.message}</b>}
                     </div>
                     <div className="col-12 text-left mb-6">
                         <button disabled={isSubmitting} className="btn btn-primary">
-                            {isSubmitting && (
-                                <span className="spinner-grow spinner-grow-sm"></span>
-                            )}
-                                Send Query
+                            {isSubmitting ? <span className="spinner-grow spinner-grow-sm"></span> : 'Send Query'}
+                            
                         </button>
                     </div>
                 </div>
             </form>
         </div>
-    )
-}
+    );
+};
 
 export default ContactFrom;

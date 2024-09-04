@@ -5,8 +5,19 @@ import Brand from '../../components/Brand/Brand.jsx';
 import Swiper, { SwiperSlide } from "../../components/swiper/index.jsx";
 import SectionTitleTwo from "../../components/SectionTitles/SectionTitleTwo.jsx";
 
-const BrandContainer = ({ data, classOption="brand-section section" }) => {
+//images
+import img1 from '../../assets/images/brands/1.png';
+import img2 from '../../assets/images/brands/2.png';
+import img3 from '../../assets/images/brands/3.png';
+import img4 from '../../assets/images/brands/4.png';
+import img5 from '../../assets/images/brands/5.png';
+import img6 from '../../assets/images/brands/6.png';
+
+const BrandContainer = ({ classOption="brand-section section" }) => {
     const { t } = useTranslation();
+
+    const data = [img1, img2, img3, img4, img5, img6];
+    
     const sliderOptions = {
         spaceBetween: 30,
         slidesPerView: 6,

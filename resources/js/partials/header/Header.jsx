@@ -48,7 +48,6 @@ const Header = () => {
 
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
-    router.post('/change-language', { language: lang });
   };
 
   return (

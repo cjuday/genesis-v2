@@ -14,6 +14,9 @@ const MobileNavMenu = () => {
                     <a href={"/about"}><span className="menu-text">{t('about')}</span></a>
                 </li>
                 <li>
+                    <a href={"/services"}><span className="menu-text">{t('services')}</span></a>
+                </li>
+                <li>
                     <a href={"/products"}><span className="menu-text">{t('products')}</span></a>
                 </li>
                 <li>

@@ -1,9 +1,12 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import { useTranslation } from "react-i18next";
 import SectionTitle from '../SectionTitles/SectionTitle';
 import SectionTitleTwo from '../SectionTitles/SectionTitleTwo';
 import Tilt from 'react-parallax-tilt';
-import { CONFIG } from "../../config";
+
+//images
+import img1 from "../../assets/images/about/1671523831.webp";
+import img2 from "../../assets/images/about/1671523887.webp";
 
 const HomeAbout = ({data}) => {
     const { t } = useTranslation();
@@ -23,13 +26,13 @@ const HomeAbout = ({data}) => {
                         <div className="about-image-area">
                             <div className="about-image">
                                 <Tilt scale={scale} transitionSpeed={4000}>
-                                    <img src={CONFIG.IMG_URL + data.img1}  alt={data.title} />
+                                    <img src={img1}  alt="Alt Image" />
                                 </Tilt>
                             </div>
                         
                             <div className="about-image">
                                 <Tilt scale={scale} transitionSpeed={4000}>
-                                    <img src={CONFIG.IMG_URL + data.img2} alt={data.title} />
+                                    <img src={img2} alt="Alt Image" />
                                 </Tilt>
                             </div>
 
@@ -41,9 +44,9 @@ const HomeAbout = ({data}) => {
                                 subTitle=""
                                 title={t('homeAboutHeader')}
                             />
-                            <div dangerouslySetInnerHTML={{ __html: data.details}}/>
+                            <span style={{ textAlign: 'justify', lineHeight: '1.5' }}><p>{t('homeAbout')}</p></span>
 
-                            {/* <Link className="btn btn-primary btn-hover-secondary mt-xl-8 mt-lg-8 mt-md-6 mt-4" to={process.env.PUBLIC_URL + "/data"}>data Us</Link> */}
+                            <a className="btn btn-primary btn-hover-secondary mt-xl-8 mt-lg-8 mt-md-6 mt-4" href={"/contact"}>Contact Us</a>
                         </div>
                     </div>
                 </div>

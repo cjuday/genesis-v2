@@ -1,12 +1,22 @@
-import PropTypes from "prop-types";
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next'; // Import useTranslation
 import Brand from '../../components/Brand/Brand.jsx';
 import SectionTitleTwo from '../../components/SectionTitles/SectionTitleTwo';
 import Swiper, { SwiperSlide } from "../../components/swiper";
 
-const CertContainer = ({ data, classOption="brand-section section" }) => {
-    const { t } = useTranslation(); // Destructure t from useTranslation
+//images
+import img1 from '../../assets/images/certs/1671859315.png';
+import img2 from '../../assets/images/certs/1671944243.jpg';
+import img3 from '../../assets/images/certs/1671944421.jpg';
+import img4 from '../../assets/images/certs/1671946652.jpg';
+import img5 from '../../assets/images/certs/1671946883.png';
+import img6 from '../../assets/images/certs/1671946894.png';
+import img7 from '../../assets/images/certs/1671947178.jpg';
+
+const CertContainer = ({classOption="brand-section section" }) => {
+    const { t } = useTranslation();
+
+    const data = [img1, img2, img3, img4, img5, img6, img7];
 
     const sliderOptions = {
         spaceBetween: 30,
@@ -61,9 +71,5 @@ const CertContainer = ({ data, classOption="brand-section section" }) => {
         </div>
     )
 }
-
-CertContainer.propTypes = {
-    classOption: PropTypes.string
-};
 
 export default CertContainer;
