@@ -53,17 +53,17 @@ const NavBar = () => {
           </a>
           <ul className="dropdown-menu pk1" aria-labelledby="navbarDropdownMenuLink1">
             <li key="man">
-                <a href="/products/men" className="dropdown-item langli">
+                <a href="/products/Men/All" className="dropdown-item langli">
                   {t('men')}
                 </a>
             </li>
             <li key="woman">
-                <a href="/products/women" className="dropdown-item langli">
+                <a href="/products/Women/All" className="dropdown-item langli">
                   {t('women')}
                 </a>
             </li>
             <li key="kid">
-                <a href="/products/kid" className="dropdown-item langli">
+                <a href="/products/Kid/All" className="dropdown-item langli">
                   {t('kid')}
                 </a>
             </li>
