@@ -3,8 +3,6 @@ import SEO from '../components/SEO';
 import { useTranslation } from 'react-i18next'; 
 import Header from '../partials/header/Header';
 import Breadcrumb from "../container/Breadcrumb/Breadcrumb";
-import AboutLeft from "../container/About/AboutLeft";
-import AboutRight from "../container/About/AboutRight";
 import Footer from '../container/Footer/Footer';
 import ScrollToTop from '../components/ScrollToTop';
 import ServiceList from "../container/Services/ServiceList";

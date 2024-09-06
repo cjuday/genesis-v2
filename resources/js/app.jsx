@@ -8,6 +8,8 @@ import 'swiper/css';
 import 'aos/dist/aos.css';
 import './assets/scss/style.scss';
 import './assets/css/custom.css';
+import './assets/css/admin_styls.css'
+import './assets/css/topbar.css'
 
 createInertiaApp({
     resolve: name => resolvePageComponent(`./Pages/${name}.jsx`, import.meta.glob('./Pages/**/*.jsx')),

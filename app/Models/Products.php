@@ -10,6 +10,6 @@ class Products extends Model
     use HasFactory;
 
     protected $fillable = [
-        'name', 'img_url', 'group_id', 'subgroup_id', 'created_by'
+        'image_url', 'group_id', 'subgroup_id', 'created_by'
     ];
 }

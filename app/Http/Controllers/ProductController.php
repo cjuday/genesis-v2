@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Inertia\Inertia;
+use Auth;
+use Illuminate\Support\Facades\Validator;
 //Models
 use App\Models\Products;
 //Enums
@@ -14,9 +16,6 @@ use App\Enums\KidProductsEnums;
 
 class ProductController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index($category, $selection)
     {
         $categoryEnums = [
@@ -65,51 +64,45 @@ class ProductController extends Controller
         ]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
 
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(Request $request)
     {
-        //
+        $validator = Validator::make($request->all(), [
+            'file' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'category' => 'required|integer',
+            'subCategory' => 'required|integer',
+        ]);
+
+        if ($validator->fails()) {
+            return redirect()->route('products.index')->with('error', $validator->errors());
+        }
+
+        if ($request->hasFile('file')) {
+            $file = $request->file('file');
+            $path = $file->store('uploads', 'public');
+
+            // Save the product with the file path, category, and sub-category
+            // Example model: Product
+            Products::create([
+                'image_url' => 'storage/'.$path,
+                'group_id' => $request->input('category'),
+                'subgroup_id' => $request->input('subCategory'),
+                'created_by' => Auth::id()
+            ]);
+        }
+
+        return redirect()->route('products.index')->with('success', 'File uploaded successfully.');
     }
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(string $id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(string $id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, string $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
     public function destroy(string $id)
     {
-        //
+        // Find the product by ID
+        $product = Products::findOrFail($id);
+
+        // Delete the product
+        $product->delete();
+
+        // Return a success response (Inertia will handle the frontend refresh)
+        return redirect()->route('products.index')->with('success', 'Product deleted successfully.');
     }
 }
