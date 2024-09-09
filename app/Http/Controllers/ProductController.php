@@ -68,7 +68,7 @@ class ProductController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'file' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'file.*' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
             'category' => 'required|integer',
             'subCategory' => 'required|integer',
         ]);
@@ -77,18 +77,17 @@ class ProductController extends Controller
             return redirect()->route('products.index')->with('error', $validator->errors());
         }
 
-        if ($request->hasFile('file')) {
-            $file = $request->file('file');
-            $path = $file->store('uploads', 'public');
-
-            // Save the product with the file path, category, and sub-category
-            // Example model: Product
-            Products::create([
-                'image_url' => 'storage/'.$path,
-                'group_id' => $request->input('category'),
-                'subgroup_id' => $request->input('subCategory'),
-                'created_by' => Auth::id()
-            ]);
+        if ($request->hasFile('files')) {
+            foreach ($request->file('files') as $file) {
+                $path = $file->store('uploads', 'public');
+    
+                Products::create([
+                    'image_url' => 'storage/' . $path,
+                    'group_id' => $request->input('category'),
+                    'subgroup_id' => $request->input('subCategory'),
+                    'created_by' => Auth::id(),
+                ]);
+            }
         }
 
         return redirect()->route('products.index')->with('success', 'File uploaded successfully.');

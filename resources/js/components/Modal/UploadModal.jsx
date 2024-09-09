@@ -4,8 +4,8 @@ import { router } from '@inertiajs/react'
 const UploadModal = ({ isOpen, closeModal}) => {
     const [selectedCategory, setSelectedCategory] = useState('');
     const [selectedSubCategory, setSelectedSubCategory] = useState('');
-    const [file, setFile] = useState(null);
-    const [filePreview, setFilePreview] = useState('');
+    const [files, setFiles] = useState([]);
+    const [filePreviews, setFilePreviews] = useState([]);
     const [error, setError] = useState('');
     
     if (!isOpen) return null;
@@ -50,44 +50,42 @@ const UploadModal = ({ isOpen, closeModal}) => {
     };
 
     const handleFileChange = (event) => {
-        const selectedFile = event.target.files[0];
-        setFile(selectedFile);
-    
-        if (selectedFile) {
-          const fileUrl = URL.createObjectURL(selectedFile);
-          setFilePreview(fileUrl);
-        } else {
-          setFilePreview('');
-        }
+        const selectedFiles = Array.from(event.target.files);
+        setFiles(selectedFiles);  // Update state with multiple files
+
+        // Create file previews
+        const previews = selectedFiles.map((file) => URL.createObjectURL(file));
+        setFilePreviews(previews);
     };
 
     const handleCloseModal = () => {
         setSelectedCategory('');
         setSelectedSubCategory('');
-        setFile(null);
-        setFilePreview('');
+        setFiles([]);  // Reset files
+        setFilePreviews([]);  // Reset previews
         setError('');
         closeModal();
     };
 
     const handleUpload = () => {
-        if (file && selectedCategory && selectedSubCategory) {
+        if (files.length > 0 && selectedCategory && selectedSubCategory) {
             const formData = new FormData();
-            formData.append('file', file);
+            files.forEach((file, index) => {
+                formData.append(`files[${index}]`, file);  // Append each file to formData
+            });
             formData.append('category', selectedCategory);
             formData.append('subCategory', selectedSubCategory);
 
-            // Assuming the route for handling file uploads is '/upload'
             router.post('/product-upload', formData, {
                 onSuccess: () => {
                     closeModal();
                 },
                 onError: () => {
-                    console.log(error);
+                    setError("Error uploading files.");
                 }
             });
-        }else{
-            setError("Please fill up all the fields.");
+        } else {
+            setError("Please fill up all the fields and select files.");
         }
     };
     return (
@@ -134,16 +132,19 @@ const UploadModal = ({ isOpen, closeModal}) => {
                             type="file"
                             id="fileUpload"
                             accept="image/*"
+                            multiple
                             onChange={handleFileChange}
                             required
                         />
 
-                        {filePreview && (
+                            {filePreviews.length > 0 && (
                                 <div>
-                                <h4>File Preview:</h4>
-                                <img src={filePreview} alt="File Preview" style={{ maxWidth: '300px', maxHeight: '300px' }} />
+                                    <h4>File Previews:</h4>
+                                    {filePreviews.map((preview, index) => (
+                                        <img key={index} src={preview} alt="File Preview" style={{ maxWidth: '150px', maxHeight: '150px', marginRight: '10px' }} />
+                                    ))}
                                 </div>
-                        )}
+                            )}
                     </div>
                     <div className="modal-footer">
                     <button type="button" className="btn btn-secondary" onClick={handleCloseModal}>
