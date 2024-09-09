@@ -1,0 +1,662 @@
+{
+  "_Breadcrumb-DsMmrzo0.js": {
+    "file": "assets/Breadcrumb-DsMmrzo0.js",
+    "name": "Breadcrumb",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_SEO-CNzsgmnX.js": {
+    "file": "assets/SEO-CNzsgmnX.js",
+    "name": "SEO",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_SectionTitle-BFyq9Whu.js": {
+    "file": "assets/SectionTitle-BFyq9Whu.js",
+    "name": "SectionTitle",
+    "imports": [
+      "_SEO-CNzsgmnX.js",
+      "resources/js/app.jsx"
+    ]
+  },
+  "_aos-D8od84Zt.js": {
+    "file": "assets/aos-D8od84Zt.js",
+    "name": "aos",
+    "imports": [
+      "resources/js/app.jsx",
+      "_SEO-CNzsgmnX.js",
+      "_logo-BmcBXPtN.js"
+    ],
+    "assets": [
+      "assets/france-DY2r_VMP.png",
+      "assets/united-kingdom-CamCehN9.png",
+      "assets/germany-8PRgXMNC.png",
+      "assets/spain-D-F8Aglp.png",
+      "assets/italy-Btu6LTlH.png"
+    ]
+  },
+  "_index-DhdlUENg.js": {
+    "file": "assets/index-DhdlUENg.js",
+    "name": "index",
+    "imports": [
+      "_SEO-CNzsgmnX.js",
+      "resources/js/app.jsx"
+    ]
+  },
+  "_logo-BmcBXPtN.js": {
+    "file": "assets/logo-BmcBXPtN.js",
+    "name": "logo",
+    "assets": [
+      "assets/logo-3TKR0QER.png"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CR9W3_ia.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/Pages/About.jsx": {
+    "file": "assets/About-CausygsT.js",
+    "name": "About",
+    "src": "resources/js/Pages/About.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_SEO-CNzsgmnX.js",
+      "_aos-D8od84Zt.js",
+      "_Breadcrumb-DsMmrzo0.js",
+      "_index-DhdlUENg.js",
+      "_logo-BmcBXPtN.js"
+    ],
+    "assets": [
+      "assets/1671372961-hcJdodaN.webp",
+      "assets/1671519040-DYaVT9lt.webp",
+      "assets/1671519096-vgoNHVaM.webp",
+      "assets/5-yOl4ddsb.webp",
+      "assets/6-jH-BSUth.webp",
+      "assets/3-Bz_TBsYJ.webp",
+      "assets/1671427463-Cn8-wyqJ.webp",
+      "assets/1670854665-HtN9Hjxb.webp",
+      "assets/1670854721-Cy4xS4Pn.webp"
+    ]
+  },
+  "resources/js/Pages/Contact.jsx": {
+    "file": "assets/Contact-aTNiOxBH.js",
+    "name": "Contact",
+    "src": "resources/js/Pages/Contact.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_SEO-CNzsgmnX.js",
+      "_aos-D8od84Zt.js",
+      "_Breadcrumb-DsMmrzo0.js",
+      "_SectionTitle-BFyq9Whu.js",
+      "_logo-BmcBXPtN.js"
+    ],
+    "assets": [
+      "assets/1672227217-Cn3VDLPy.webp"
+    ]
+  },
+  "resources/js/Pages/Dashboard.jsx": {
+    "file": "assets/Dashboard-BCKlsVqE.js",
+    "name": "Dashboard",
+    "src": "resources/js/Pages/Dashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_SEO-CNzsgmnX.js",
+      "_logo-BmcBXPtN.js"
+    ]
+  },
+  "resources/js/Pages/Home.jsx": {
+    "file": "assets/Home-BWWblAUw.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_SEO-CNzsgmnX.js",
+      "_aos-D8od84Zt.js",
+      "_SectionTitle-BFyq9Whu.js",
+      "_index-DhdlUENg.js",
+      "_logo-BmcBXPtN.js"
+    ],
+    "assets": [
+      "assets/1672228480-BvETGix-.webp",
+      "assets/1672227279-C43aNhg1.webp",
+      "assets/1672054675-DWJ5Mizv.webp",
+      "assets/1671523831-4fj4kWJf.webp",
+      "assets/1671523887-DjaEiuQC.webp",
+      "assets/1-BIji0eFs.png",
+      "assets/2-D8gGgmwL.png",
+      "assets/3-IKYbZyQL.png",
+      "assets/4-Cl6jfwH3.png",
+      "assets/5-BEi77x8t.png",
+      "assets/6-BqVtlJEw.png",
+      "assets/1671859315-CfvB-acH.png",
+      "assets/1671944243-BVq72wHT.jpg",
+      "assets/1671944421-BkqxTSoA.jpg",
+      "assets/1671946652-Dc1bVUGX.jpg",
+      "assets/1671946883-CwCOrEpg.png",
+      "assets/1671946894-DBize3RS.png",
+      "assets/1671947178-CzDgybT4.jpg"
+    ]
+  },
+  "resources/js/Pages/Items.jsx": {
+    "file": "assets/Items-3-WDZOPx.js",
+    "name": "Items",
+    "src": "resources/js/Pages/Items.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_SEO-CNzsgmnX.js",
+      "_aos-D8od84Zt.js",
+      "_logo-BmcBXPtN.js"
+    ]
+  },
+  "resources/js/Pages/Login.jsx": {
+    "file": "assets/Login-DbaXgBUa.js",
+    "name": "Login",
+    "src": "resources/js/Pages/Login.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_SEO-CNzsgmnX.js"
+    ]
+  },
+  "resources/js/Pages/Products.jsx": {
+    "file": "assets/Products-DhSefXNn.js",
+    "name": "Products",
+    "src": "resources/js/Pages/Products.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_SEO-CNzsgmnX.js",
+      "_aos-D8od84Zt.js",
+      "_Breadcrumb-DsMmrzo0.js",
+      "_SectionTitle-BFyq9Whu.js",
+      "_logo-BmcBXPtN.js"
+    ],
+    "assets": [
+      "assets/1671598701-OZI45FBo.jpg",
+      "assets/1671598800-BdclRoHR.jpg",
+      "assets/1671598856-B8nf3w9N.jpg",
+      "assets/1671540679-D_ZrcC4h.webp"
+    ]
+  },
+  "resources/js/Pages/Services.jsx": {
+    "file": "assets/Services-BsTXtGaC.js",
+    "name": "Services",
+    "src": "resources/js/Pages/Services.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_SEO-CNzsgmnX.js",
+      "_aos-D8od84Zt.js",
+      "_Breadcrumb-DsMmrzo0.js",
+      "_SectionTitle-BFyq9Whu.js",
+      "_logo-BmcBXPtN.js"
+    ],
+    "assets": [
+      "assets/1-bct0wPSK.png",
+      "assets/2-CfwiSocy.png",
+      "assets/3-DUIT22C2.png",
+      "assets/4-D5pk0G3F.png",
+      "assets/1671453545-60q0l30y.png",
+      "assets/7-BfhJhx5M.png",
+      "assets/8-BUXz98Tc.png",
+      "assets/9-DIRBfIFy.png",
+      "assets/1671858909-CqQy6Miv.png",
+      "assets/1672054787-CzrSaOV1.webp"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-KCAfqlmU.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/About.jsx",
+      "resources/js/Pages/Contact.jsx",
+      "resources/js/Pages/Dashboard.jsx",
+      "resources/js/Pages/Home.jsx",
+      "resources/js/Pages/Items.jsx",
+      "resources/js/Pages/Login.jsx",
+      "resources/js/Pages/Products.jsx",
+      "resources/js/Pages/Services.jsx"
+    ],
+    "css": [
+      "assets/app-BakLpDxg.css"
+    ]
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-brands-400.eot": {
+    "file": "assets/fa-brands-400-pYGwUt6T.eot",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-brands-400.eot"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-brands-400.svg": {
+    "file": "assets/fa-brands-400-BJ2MQbtT.svg",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-brands-400.svg"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-BI_tDH2d.ttf",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-brands-400.ttf"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-brands-400.woff": {
+    "file": "assets/fa-brands-400-CBvUu_ff.woff",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-brands-400.woff"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-CsWtHAXU.woff2",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-brands-400.woff2"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-duotone-900.eot": {
+    "file": "assets/fa-duotone-900-JeTPKxPH.eot",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-duotone-900.eot"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-duotone-900.svg": {
+    "file": "assets/fa-duotone-900-C_1_r7gI.svg",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-duotone-900.svg"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-duotone-900.ttf": {
+    "file": "assets/fa-duotone-900-Nj2wQ5M8.ttf",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-duotone-900.ttf"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-duotone-900.woff": {
+    "file": "assets/fa-duotone-900-DDe44u1J.woff",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-duotone-900.woff"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-duotone-900.woff2": {
+    "file": "assets/fa-duotone-900-bpSJO8ab.woff2",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-duotone-900.woff2"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-light-300.eot": {
+    "file": "assets/fa-light-300-CV-1WAdV.eot",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-light-300.eot"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-light-300.svg": {
+    "file": "assets/fa-light-300-B-TWg4o1.svg",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-light-300.svg"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-light-300.ttf": {
+    "file": "assets/fa-light-300-CnMMuqha.ttf",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-light-300.ttf"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-light-300.woff": {
+    "file": "assets/fa-light-300-qcaPxshs.woff",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-light-300.woff"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-light-300.woff2": {
+    "file": "assets/fa-light-300-DZg6nHqH.woff2",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-light-300.woff2"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-regular-400.eot": {
+    "file": "assets/fa-regular-400-dkNhLZuO.eot",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-regular-400.eot"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-regular-400.svg": {
+    "file": "assets/fa-regular-400-C7NO12Iu.svg",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-regular-400.svg"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400-CKMoHIxU.ttf",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-regular-400.ttf"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-regular-400.woff": {
+    "file": "assets/fa-regular-400-B_ifRHiC.woff",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-regular-400.woff"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-Djrvrt0X.woff2",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-regular-400.woff2"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-solid-900.eot": {
+    "file": "assets/fa-solid-900-C4hDMSGg.eot",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-solid-900.eot"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-solid-900.svg": {
+    "file": "assets/fa-solid-900-BSbnC05e.svg",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-solid-900.svg"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-Dwue_SzE.ttf",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-solid-900.ttf"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-solid-900.woff": {
+    "file": "assets/fa-solid-900-DbrfXOyg.woff",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-solid-900.woff"
+  },
+  "resources/js/assets/fonts/fontAwesomePro/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-Ws24PyHn.woff2",
+    "src": "resources/js/assets/fonts/fontAwesomePro/fa-solid-900.woff2"
+  },
+  "resources/js/assets/fonts/muli/Muli-Bold.ttf": {
+    "file": "assets/Muli-Bold-36EQ0Qyd.ttf",
+    "src": "resources/js/assets/fonts/muli/Muli-Bold.ttf"
+  },
+  "resources/js/assets/fonts/muli/Muli-Bold.woff": {
+    "file": "assets/Muli-Bold-DkqSGAko.woff",
+    "src": "resources/js/assets/fonts/muli/Muli-Bold.woff"
+  },
+  "resources/js/assets/fonts/muli/Muli-Bold.woff2": {
+    "file": "assets/Muli-Bold-DZh3vE_9.woff2",
+    "src": "resources/js/assets/fonts/muli/Muli-Bold.woff2"
+  },
+  "resources/js/assets/fonts/muli/Muli-BoldItalic.ttf": {
+    "file": "assets/Muli-BoldItalic-DTpo2LR0.ttf",
+    "src": "resources/js/assets/fonts/muli/Muli-BoldItalic.ttf"
+  },
+  "resources/js/assets/fonts/muli/Muli-BoldItalic.woff": {
+    "file": "assets/Muli-BoldItalic-BK14YNHw.woff",
+    "src": "resources/js/assets/fonts/muli/Muli-BoldItalic.woff"
+  },
+  "resources/js/assets/fonts/muli/Muli-BoldItalic.woff2": {
+    "file": "assets/Muli-BoldItalic-DVgmWn7y.woff2",
+    "src": "resources/js/assets/fonts/muli/Muli-BoldItalic.woff2"
+  },
+  "resources/js/assets/fonts/muli/Muli-ExtraLight.ttf": {
+    "file": "assets/Muli-ExtraLight-Bc1ed2LP.ttf",
+    "src": "resources/js/assets/fonts/muli/Muli-ExtraLight.ttf"
+  },
+  "resources/js/assets/fonts/muli/Muli-ExtraLight.woff": {
+    "file": "assets/Muli-ExtraLight-DohPvBZ4.woff",
+    "src": "resources/js/assets/fonts/muli/Muli-ExtraLight.woff"
+  },
+  "resources/js/assets/fonts/muli/Muli-ExtraLight.woff2": {
+    "file": "assets/Muli-ExtraLight-rlPJf6W9.woff2",
+    "src": "resources/js/assets/fonts/muli/Muli-ExtraLight.woff2"
+  },
+  "resources/js/assets/fonts/muli/Muli-ExtraLightItalic.ttf": {
+    "file": "assets/Muli-ExtraLightItalic-CUiBR25S.ttf",
+    "src": "resources/js/assets/fonts/muli/Muli-ExtraLightItalic.ttf"
+  },
+  "resources/js/assets/fonts/muli/Muli-ExtraLightItalic.woff": {
+    "file": "assets/Muli-ExtraLightItalic-CH_4Ibhk.woff",
+    "src": "resources/js/assets/fonts/muli/Muli-ExtraLightItalic.woff"
+  },
+  "resources/js/assets/fonts/muli/Muli-ExtraLightItalic.woff2": {
+    "file": "assets/Muli-ExtraLightItalic-CV_AbvvA.woff2",
+    "src": "resources/js/assets/fonts/muli/Muli-ExtraLightItalic.woff2"
+  },
+  "resources/js/assets/fonts/muli/Muli-Italic.ttf": {
+    "file": "assets/Muli-Italic-DwOQoyKY.ttf",
+    "src": "resources/js/assets/fonts/muli/Muli-Italic.ttf"
+  },
+  "resources/js/assets/fonts/muli/Muli-Italic.woff": {
+    "file": "assets/Muli-Italic-BTQI5MtE.woff",
+    "src": "resources/js/assets/fonts/muli/Muli-Italic.woff"
+  },
+  "resources/js/assets/fonts/muli/Muli-Italic.woff2": {
+    "file": "assets/Muli-Italic-r-6w0by5.woff2",
+    "src": "resources/js/assets/fonts/muli/Muli-Italic.woff2"
+  },
+  "resources/js/assets/fonts/muli/Muli-Light.ttf": {
+    "file": "assets/Muli-Light-wSW64Pa2.ttf",
+    "src": "resources/js/assets/fonts/muli/Muli-Light.ttf"
+  },
+  "resources/js/assets/fonts/muli/Muli-Light.woff": {
+    "file": "assets/Muli-Light-kd_t50o_.woff",
+    "src": "resources/js/assets/fonts/muli/Muli-Light.woff"
+  },
+  "resources/js/assets/fonts/muli/Muli-Light.woff2": {
+    "file": "assets/Muli-Light--y0HAnar.woff2",
+    "src": "resources/js/assets/fonts/muli/Muli-Light.woff2"
+  },
+  "resources/js/assets/fonts/muli/Muli-LightItalic.ttf": {
+    "file": "assets/Muli-LightItalic-C3ZOXu3c.ttf",
+    "src": "resources/js/assets/fonts/muli/Muli-LightItalic.ttf"
+  },
+  "resources/js/assets/fonts/muli/Muli-LightItalic.woff": {
+    "file": "assets/Muli-LightItalic-DKI7Fvzf.woff",
+    "src": "resources/js/assets/fonts/muli/Muli-LightItalic.woff"
+  },
+  "resources/js/assets/fonts/muli/Muli-LightItalic.woff2": {
+    "file": "assets/Muli-LightItalic-CRB95sCv.woff2",
+    "src": "resources/js/assets/fonts/muli/Muli-LightItalic.woff2"
+  },
+  "resources/js/assets/fonts/muli/Muli-Semi-BoldItalic.ttf": {
+    "file": "assets/Muli-Semi-BoldItalic-DPra7xQ8.ttf",
+    "src": "resources/js/assets/fonts/muli/Muli-Semi-BoldItalic.ttf"
+  },
+  "resources/js/assets/fonts/muli/Muli-Semi-BoldItalic.woff": {
+    "file": "assets/Muli-Semi-BoldItalic-7HB_gpVc.woff",
+    "src": "resources/js/assets/fonts/muli/Muli-Semi-BoldItalic.woff"
+  },
+  "resources/js/assets/fonts/muli/Muli-Semi-BoldItalic.woff2": {
+    "file": "assets/Muli-Semi-BoldItalic-CoBT2qDN.woff2",
+    "src": "resources/js/assets/fonts/muli/Muli-Semi-BoldItalic.woff2"
+  },
+  "resources/js/assets/fonts/muli/Muli-SemiBold.ttf": {
+    "file": "assets/Muli-SemiBold-CdiD_anl.ttf",
+    "src": "resources/js/assets/fonts/muli/Muli-SemiBold.ttf"
+  },
+  "resources/js/assets/fonts/muli/Muli-SemiBold.woff": {
+    "file": "assets/Muli-SemiBold-tC16up7_.woff",
+    "src": "resources/js/assets/fonts/muli/Muli-SemiBold.woff"
+  },
+  "resources/js/assets/fonts/muli/Muli-SemiBold.woff2": {
+    "file": "assets/Muli-SemiBold-DHu214mo.woff2",
+    "src": "resources/js/assets/fonts/muli/Muli-SemiBold.woff2"
+  },
+  "resources/js/assets/fonts/muli/Muli.ttf": {
+    "file": "assets/Muli-CFa5q8p5.ttf",
+    "src": "resources/js/assets/fonts/muli/Muli.ttf"
+  },
+  "resources/js/assets/fonts/muli/Muli.woff": {
+    "file": "assets/Muli-19wr-RPU.woff",
+    "src": "resources/js/assets/fonts/muli/Muli.woff"
+  },
+  "resources/js/assets/fonts/muli/Muli.woff2": {
+    "file": "assets/Muli-DSwk3X1k.woff2",
+    "src": "resources/js/assets/fonts/muli/Muli.woff2"
+  },
+  "resources/js/assets/fonts/pe-icon-7-stroke/fonts/pe-icon-7-stroke.eot": {
+    "file": "assets/pe-icon-7-stroke-iUWukZXW.eot",
+    "src": "resources/js/assets/fonts/pe-icon-7-stroke/fonts/pe-icon-7-stroke.eot"
+  },
+  "resources/js/assets/fonts/pe-icon-7-stroke/fonts/pe-icon-7-stroke.svg": {
+    "file": "assets/pe-icon-7-stroke-B0ODSzhW.svg",
+    "src": "resources/js/assets/fonts/pe-icon-7-stroke/fonts/pe-icon-7-stroke.svg"
+  },
+  "resources/js/assets/fonts/pe-icon-7-stroke/fonts/pe-icon-7-stroke.ttf": {
+    "file": "assets/pe-icon-7-stroke-StViNhRx.ttf",
+    "src": "resources/js/assets/fonts/pe-icon-7-stroke/fonts/pe-icon-7-stroke.ttf"
+  },
+  "resources/js/assets/fonts/pe-icon-7-stroke/fonts/pe-icon-7-stroke.woff": {
+    "file": "assets/pe-icon-7-stroke-B9oEZD7G.woff",
+    "src": "resources/js/assets/fonts/pe-icon-7-stroke/fonts/pe-icon-7-stroke.woff"
+  },
+  "resources/js/assets/images/about/1670854665.webp": {
+    "file": "assets/1670854665-HtN9Hjxb.webp",
+    "src": "resources/js/assets/images/about/1670854665.webp"
+  },
+  "resources/js/assets/images/about/1670854721.webp": {
+    "file": "assets/1670854721-Cy4xS4Pn.webp",
+    "src": "resources/js/assets/images/about/1670854721.webp"
+  },
+  "resources/js/assets/images/about/1671427463.webp": {
+    "file": "assets/1671427463-Cn8-wyqJ.webp",
+    "src": "resources/js/assets/images/about/1671427463.webp"
+  },
+  "resources/js/assets/images/about/1671519040.webp": {
+    "file": "assets/1671519040-DYaVT9lt.webp",
+    "src": "resources/js/assets/images/about/1671519040.webp"
+  },
+  "resources/js/assets/images/about/1671519096.webp": {
+    "file": "assets/1671519096-vgoNHVaM.webp",
+    "src": "resources/js/assets/images/about/1671519096.webp"
+  },
+  "resources/js/assets/images/about/1671523831.webp": {
+    "file": "assets/1671523831-4fj4kWJf.webp",
+    "src": "resources/js/assets/images/about/1671523831.webp"
+  },
+  "resources/js/assets/images/about/1671523887.webp": {
+    "file": "assets/1671523887-DjaEiuQC.webp",
+    "src": "resources/js/assets/images/about/1671523887.webp"
+  },
+  "resources/js/assets/images/about/3.webp": {
+    "file": "assets/3-Bz_TBsYJ.webp",
+    "src": "resources/js/assets/images/about/3.webp"
+  },
+  "resources/js/assets/images/about/5.webp": {
+    "file": "assets/5-yOl4ddsb.webp",
+    "src": "resources/js/assets/images/about/5.webp"
+  },
+  "resources/js/assets/images/about/6.webp": {
+    "file": "assets/6-jH-BSUth.webp",
+    "src": "resources/js/assets/images/about/6.webp"
+  },
+  "resources/js/assets/images/brands/1.png": {
+    "file": "assets/1-BIji0eFs.png",
+    "src": "resources/js/assets/images/brands/1.png"
+  },
+  "resources/js/assets/images/brands/2.png": {
+    "file": "assets/2-D8gGgmwL.png",
+    "src": "resources/js/assets/images/brands/2.png"
+  },
+  "resources/js/assets/images/brands/3.png": {
+    "file": "assets/3-IKYbZyQL.png",
+    "src": "resources/js/assets/images/brands/3.png"
+  },
+  "resources/js/assets/images/brands/4.png": {
+    "file": "assets/4-Cl6jfwH3.png",
+    "src": "resources/js/assets/images/brands/4.png"
+  },
+  "resources/js/assets/images/brands/5.png": {
+    "file": "assets/5-BEi77x8t.png",
+    "src": "resources/js/assets/images/brands/5.png"
+  },
+  "resources/js/assets/images/brands/6.png": {
+    "file": "assets/6-BqVtlJEw.png",
+    "src": "resources/js/assets/images/brands/6.png"
+  },
+  "resources/js/assets/images/category/1671598701.jpg": {
+    "file": "assets/1671598701-OZI45FBo.jpg",
+    "src": "resources/js/assets/images/category/1671598701.jpg"
+  },
+  "resources/js/assets/images/category/1671598800.jpg": {
+    "file": "assets/1671598800-BdclRoHR.jpg",
+    "src": "resources/js/assets/images/category/1671598800.jpg"
+  },
+  "resources/js/assets/images/category/1671598856.jpg": {
+    "file": "assets/1671598856-B8nf3w9N.jpg",
+    "src": "resources/js/assets/images/category/1671598856.jpg"
+  },
+  "resources/js/assets/images/certs/1671859315.png": {
+    "file": "assets/1671859315-CfvB-acH.png",
+    "src": "resources/js/assets/images/certs/1671859315.png"
+  },
+  "resources/js/assets/images/certs/1671944243.jpg": {
+    "file": "assets/1671944243-BVq72wHT.jpg",
+    "src": "resources/js/assets/images/certs/1671944243.jpg"
+  },
+  "resources/js/assets/images/certs/1671944421.jpg": {
+    "file": "assets/1671944421-BkqxTSoA.jpg",
+    "src": "resources/js/assets/images/certs/1671944421.jpg"
+  },
+  "resources/js/assets/images/certs/1671946652.jpg": {
+    "file": "assets/1671946652-Dc1bVUGX.jpg",
+    "src": "resources/js/assets/images/certs/1671946652.jpg"
+  },
+  "resources/js/assets/images/certs/1671946883.png": {
+    "file": "assets/1671946883-CwCOrEpg.png",
+    "src": "resources/js/assets/images/certs/1671946883.png"
+  },
+  "resources/js/assets/images/certs/1671946894.png": {
+    "file": "assets/1671946894-DBize3RS.png",
+    "src": "resources/js/assets/images/certs/1671946894.png"
+  },
+  "resources/js/assets/images/certs/1671947178.jpg": {
+    "file": "assets/1671947178-CzDgybT4.jpg",
+    "src": "resources/js/assets/images/certs/1671947178.jpg"
+  },
+  "resources/js/assets/images/cover/1671372961.webp": {
+    "file": "assets/1671372961-hcJdodaN.webp",
+    "src": "resources/js/assets/images/cover/1671372961.webp"
+  },
+  "resources/js/assets/images/cover/1671540679.webp": {
+    "file": "assets/1671540679-D_ZrcC4h.webp",
+    "src": "resources/js/assets/images/cover/1671540679.webp"
+  },
+  "resources/js/assets/images/cover/1672054787.webp": {
+    "file": "assets/1672054787-CzrSaOV1.webp",
+    "src": "resources/js/assets/images/cover/1672054787.webp"
+  },
+  "resources/js/assets/images/cover/1672227217.webp": {
+    "file": "assets/1672227217-Cn3VDLPy.webp",
+    "src": "resources/js/assets/images/cover/1672227217.webp"
+  },
+  "resources/js/assets/images/flags/france.png": {
+    "file": "assets/france-DY2r_VMP.png",
+    "src": "resources/js/assets/images/flags/france.png"
+  },
+  "resources/js/assets/images/flags/germany.png": {
+    "file": "assets/germany-8PRgXMNC.png",
+    "src": "resources/js/assets/images/flags/germany.png"
+  },
+  "resources/js/assets/images/flags/italy.png": {
+    "file": "assets/italy-Btu6LTlH.png",
+    "src": "resources/js/assets/images/flags/italy.png"
+  },
+  "resources/js/assets/images/flags/spain.png": {
+    "file": "assets/spain-D-F8Aglp.png",
+    "src": "resources/js/assets/images/flags/spain.png"
+  },
+  "resources/js/assets/images/flags/united-kingdom.png": {
+    "file": "assets/united-kingdom-CamCehN9.png",
+    "src": "resources/js/assets/images/flags/united-kingdom.png"
+  },
+  "resources/js/assets/images/logo/logo.png": {
+    "file": "assets/logo-3TKR0QER.png",
+    "src": "resources/js/assets/images/logo/logo.png"
+  },
+  "resources/js/assets/images/services/1.png": {
+    "file": "assets/1-bct0wPSK.png",
+    "src": "resources/js/assets/images/services/1.png"
+  },
+  "resources/js/assets/images/services/1671453545.png": {
+    "file": "assets/1671453545-60q0l30y.png",
+    "src": "resources/js/assets/images/services/1671453545.png"
+  },
+  "resources/js/assets/images/services/1671858909.png": {
+    "file": "assets/1671858909-CqQy6Miv.png",
+    "src": "resources/js/assets/images/services/1671858909.png"
+  },
+  "resources/js/assets/images/services/2.png": {
+    "file": "assets/2-CfwiSocy.png",
+    "src": "resources/js/assets/images/services/2.png"
+  },
+  "resources/js/assets/images/services/3.png": {
+    "file": "assets/3-DUIT22C2.png",
+    "src": "resources/js/assets/images/services/3.png"
+  },
+  "resources/js/assets/images/services/4.png": {
+    "file": "assets/4-D5pk0G3F.png",
+    "src": "resources/js/assets/images/services/4.png"
+  },
+  "resources/js/assets/images/services/7.png": {
+    "file": "assets/7-BfhJhx5M.png",
+    "src": "resources/js/assets/images/services/7.png"
+  },
+  "resources/js/assets/images/services/8.png": {
+    "file": "assets/8-BUXz98Tc.png",
+    "src": "resources/js/assets/images/services/8.png"
+  },
+  "resources/js/assets/images/services/9.png": {
+    "file": "assets/9-DIRBfIFy.png",
+    "src": "resources/js/assets/images/services/9.png"
+  },
+  "resources/js/assets/images/slider/1672054675.webp": {
+    "file": "assets/1672054675-DWJ5Mizv.webp",
+    "src": "resources/js/assets/images/slider/1672054675.webp"
+  },
+  "resources/js/assets/images/slider/1672227279.webp": {
+    "file": "assets/1672227279-C43aNhg1.webp",
+    "src": "resources/js/assets/images/slider/1672227279.webp"
+  },
+  "resources/js/assets/images/slider/1672228480.webp": {
+    "file": "assets/1672228480-BvETGix-.webp",
+    "src": "resources/js/assets/images/slider/1672228480.webp"
+  }
+}
