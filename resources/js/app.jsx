@@ -6,7 +6,6 @@ import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
 import 'swiper/css';
 import 'aos/dist/aos.css';
-import './assets/scss/style.scss';
 import './assets/css/custom.css';
 import './assets/css/admin_styls.css'
 import './assets/css/topbar.css'
