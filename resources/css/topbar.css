@@ -1,0 +1,12 @@
+#topbar {
+    min-height: 55px !important;
+    background-color: #272C3F !important;
+    color: #D3C291 !important;
+}
+
+button {
+    background-color: inherit;
+    color: #D3C291;
+    border: none;
+    font-size: 20px;
+}
