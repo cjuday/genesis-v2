@@ -7,7 +7,6 @@ import ScrollToTop from '../components/ScrollToTop';
 import AOS from 'aos';
 
 const Items = ({products, appUrl, classOption="text-lg-center text-center mb-lg-13 mb-md-13 mb-6"}) => {
-    console.log(products);
     const { t } = useTranslation();
     const url = new URL(window.location.href);
     const pathParts = url.pathname.split('/').filter(part => part);
