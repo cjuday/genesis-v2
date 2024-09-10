@@ -14,7 +14,7 @@ class DashboardController extends Controller
         $data = Products::orderBy('id','desc')->paginate(20);
         
         return Inertia::render('Dashboard', [
-            'appUrl' => env('APP_URL'),
+            'appUrl' => config('app.url'),
             'products' => $data
         ]);
     }
