@@ -59,7 +59,7 @@ class ProductController extends Controller
             $data = Products::where([['group_id',$enum],['subgroup_id',$subCatenum]])->orderBy('id','desc')->paginate(20);
         }
         return Inertia::render('Items', [
-            'appUrl' => env('APP_URL'),
+            'appUrl' => config('app.url'),
             'products' => $data
         ]);
     }
