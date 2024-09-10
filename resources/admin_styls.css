@@ -1,0 +1,91 @@
+html, body{
+    height: 100%;
+  }
+  .content{
+    padding-top: 80px;
+  }
+  
+   .bg-custom {
+      background-color: #272C3F !important;
+   }
+  
+   .text-custom {
+    color: #c3007e !important;
+  }
+  
+  .btn-close{
+    color: #fff !important;
+  }
+  
+  .modal-header{
+    background-color: #272C3F;
+    color: #D3C291 !important;
+  }
+  .modal-title{
+    font-size: 20px !important;
+    color: #D3C291 !important;
+  }
+  
+  .modal-body{
+    font-size: 15px;
+  }
+  
+   .btn-outline-custom{
+     border: 1px solid #D3C291 !important;
+     color: #272C3F !important;
+   }
+   :disabled.btn-outline-custom{
+     border: 1px solid #D3C291;
+     color: #272C3F !important;
+   }
+  
+   .logo-sizing{
+     height: 32.88px;
+     width: 100px;
+     justify-content: center;
+     align-items: center;
+   }
+  
+   .logout{
+     color: #D3C291;
+     text-decoration: none;
+   }
+  
+   .logout-icon{
+     vertical-align: -0.25em !important;
+   }
+  
+   .footer{
+     background-color: #272C3F;
+     position: relative;
+     top: auto;
+     bottom: 0;
+     width: 100%;
+     height: 55px !important;
+     justify-content: center !important;
+     align-items: center !important;
+     display: flex;
+     color: #D3C291 !important;
+   }
+  
+   .form-control:focus, .custom-control:focus {
+      border-color: #D3C291;
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #D3C291;
+    }
+   
+   .form-container{
+      width: 30%;
+   }
+  
+   @media screen and (max-width : 1000px) {
+      .form-container {
+          width: 45%;
+      }
+   }
+  
+   @media screen and (max-width : 700px) {
+      .form-container {
+          width: 65%;
+      }
+   }
+  

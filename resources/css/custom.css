@@ -1,0 +1,309 @@
+body::-webkit-scrollbar{
+  width: 10px;
+  background-color: #272C3F;
+}
+body::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: #787e96;
+}
+body::-webkit-scrollbar-track{
+  border-radius: 10px;
+  background-color: #383838;
+}
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+background:
+    linear-gradient(120deg, #696969 40%, rgba(0, 0, 0, 0) 41%),
+    linear-gradient(240deg, #696969 40%, rgba(0, 0, 0, 0) 41%),
+    linear-gradient(0deg, #696969 30%, rgba(0, 0, 0, 0) 31%);
+background-color: #b6b6b6;
+}
+
+::-webkit-scrollbar-button:vertical:end:increment {
+background:
+    linear-gradient(300deg, #696969 40%, rgba(0, 0, 0, 0) 41%),
+    linear-gradient(60deg, #696969 40%, rgba(0, 0, 0, 0) 41%),
+    linear-gradient(180deg, #696969 30%, rgba(0, 0, 0, 0) 31%);
+background-color: #b6b6b6;
+}
+
+
+i{
+  padding-right: 10px;
+}
+
+.footer-icon {
+  font-size: 30px;
+}
+
+.flag{
+  max-width: 19px;
+}
+
+.dropdown-menu{
+  background-color: #272C3F;
+  min-width: 40px;
+}
+
+.pk1{
+  margin-top: 10px !important;
+}
+
+.dropdown-menu>li{
+  color: #D3C291;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+  color: #D3C291;
+  text-decoration: none;
+  background-color: #272C3F;
+}
+
+.navx{
+  margin-left: 60px;
+  margin-right: 60px;
+  color: #D3C291;
+}
+
+.navxx{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.abtx{
+  margin-left: 60px;
+}
+
+.pr1{
+  text-align: left;
+}
+
+.pr2{
+  text-align: right;
+}
+
+@media screen and (max-width: 991px) {
+  .navx{
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navx{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .abtx{
+    margin-left: 0px;
+  }
+
+  .pr2{
+    text-align: left;
+  }
+}
+
+.langli{
+  text-decoration: none;
+  list-style: none;
+  padding-right: 15px;
+  color: #D3C291 !important;
+}
+
+.mob{
+  padding-top: 10px;
+}
+
+.port{
+  height: 400px !important;
+  width: 350px !important;
+}
+
+.port img{
+  object-fit: cover;
+}
+.serv{
+  height: 350px;
+}
+
+.cat-image {
+  position: relative;
+  width: 350px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+  height: 400px;
+  overflow: hidden;
+}
+
+.cats-img {
+  width: 350px; /* Maximum width */
+  height: 400px;
+  transition: transform 1s;
+  overflow: hidden;
+  display: block;
+}
+
+.cats-img:hover{
+  transform: scale(1.1);
+}
+
+.cat-image .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 320px; /* Full width */
+  font-size: 20px;
+  padding: 20px; /* Some padding */
+}
+
+.prod-img {
+  width: 350px !important; /* Maximum width */
+  height: 400px !important;
+}
+
+.thumbnail-prod{
+  margin-top: 20px;
+  height: 150px;
+  width: 120px;
+}
+
+.service-icon{
+  width: 80px;
+  height: 60px;
+}
+
+.mesonry-list{
+  height: auto !important;
+}
+
+.mySwiper {
+  padding-top: 20px !important;
+  max-height: 200px !important;
+  box-sizing: border-box;
+  padding: 10px 0;
+  cursor: pointer;
+  background-size: contain;
+}
+
+.mySwiper .swiper-slide {
+  height: 160px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+}
+
+.mySwiper img{
+  object-fit: cover;
+  height: 160px !important;
+  width: 120px !important;
+}
+.mySwiper .swiper-slide-thumb-active {
+  border: 1px solid #D3C291;
+}
+
+.product-details{
+  height: 535px;
+  padding: 25px;
+  text-align: justify;
+}
+
+.product-details .title{
+  text-transform: uppercase;
+  font-size: 38px;
+  font-family: "Playfair Display", sans-serif;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .mySwiper {
+    padding-top: 20px !important;
+    max-height: 160px !important;
+    box-sizing: border-box;
+    padding: 10px 0;
+    cursor: pointer;
+    background-size: contain;
+  }
+  
+  .mySwiper .swiper-slide {
+    height: 120px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+  }
+
+  .mySwiper img{
+    object-fit: cover;
+    height: 120px !important;
+    width: 120px !important;
+  }
+
+  .product-details{
+    height: auto;
+    padding: 25px;
+    text-align: justify;
+    margin-bottom: 15px;
+  }
+
+  .product-details .title{
+    text-transform: uppercase;
+    font-size: 38px;
+    font-family: "Playfair Display", sans-serif;
+  }
+
+  .footer-logo{
+    margin-top: 0px !important;
+  }
+}
+
+.catbox{
+  text-transform: uppercase;
+  padding-right: 35px !important;
+  padding-left: 35px !important;
+}
+
+.load{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ftr{
+  padding-left: 25px;
+}
+
+.slr{
+  color: #D3C291;
+}
+
+.ts{
+  padding-top: 5px;
+  display: flex;
+}
+
+.cert{
+  height: 240px !important;
+  justify-content: center;
+  display: flex;
+}
+
+.section-padding-bottom-2x{
+  padding-bottom: 50px;
+}
+
+.ytitle{
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 600;
+  margin: 0;
+  color: var(--clr-heading);
+  font-family: 'Tangerine', cursive;
+  padding-bottom: 25px;
+}
