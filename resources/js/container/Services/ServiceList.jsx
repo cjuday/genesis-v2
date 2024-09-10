@@ -67,7 +67,7 @@ const ServiceList = () => {
                     title="Our Services"
                 />
                 
-                <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6">
+                <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-6">
 
                     {img && img.map((single, key) => {
                             return(
