@@ -67,12 +67,14 @@ const SwiperSlider = forwardRef(
                 {sliderOptions?.navigation && (
                     <>
                         <button
+                            aria-label="prevClass"
                             type="button"
                             className={`swiper-btn swiper-btn-prev ${prevClass}`}
                         >
                             <i className={cn(prevIcon, "icon")} />
                         </button>
                         <button
+                            aria-label="nextClass"
                             type="button"
                             className={`swiper-btn swiper-btn-next ${nextClass}`}
                         >

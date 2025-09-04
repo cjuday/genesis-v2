@@ -65,7 +65,7 @@ const ContactFrom = () => {
                         {errors.message && <b className='text-danger'>x {errors.message.message}</b>}
                     </div>
                     <div className="col-12 text-left mb-6">
-                        <button disabled={isSubmitting} className="btn btn-primary">
+                        <button aria-label="submitQuery" disabled={isSubmitting} className="btn btn-primary">
                             {isSubmitting ? <span className="spinner-grow spinner-grow-sm"></span> : 'Send Query'}
                             
                         </button>

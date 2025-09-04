@@ -61,7 +61,7 @@ const Items = ({products, appUrl, classOption="text-lg-center text-center mb-lg-
                 <div className={`messonry-button ${classOption}`}>
                     {categories.map((cat) => 
                         <a key={cat} href={`/products/${category}/${cat}`}>
-                            <button id={cat} className={active === cat ? 'is-checked' : ''}><span className="filter-text">{t(cat)}</span></button>
+                            <button id={cat} aria-label={`${category}-${cat}`} className={active === cat ? 'is-checked' : ''}><span className="filter-text">{t(cat)}</span></button>
                         </a>
                     )}
                 </div>

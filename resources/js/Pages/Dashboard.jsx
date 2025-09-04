@@ -94,7 +94,7 @@ const Dashboard = ({products, appUrl}) => {
                                    <h2>Products</h2>
                                 </div>
                                 <div className="col-6 text-end">
-                                <button className="btn btn-success" onClick={openUploadModal}><i className="fa fa-upload"/> Upload Product</button>
+                                <button aria-label="uploadProduct" className="btn btn-success" onClick={openUploadModal}><i className="fa fa-upload"/> Upload Product</button>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +126,7 @@ const Dashboard = ({products, appUrl}) => {
                                                     <td><img src={appUrl + product.image_url} height="120px"/></td>
                                                     <td>{getCategory(product.group_id)}</td>
                                                     <td>{getSubCategory(product.group_id, product.subgroup_id)}</td>
-                                                    <td> <button onClick={() => openModal(product.id)}><i className="fa fa-trash text-danger"/></button></td>
+                                                    <td> <button aria-label="deleteImg" onClick={() => openModal(product.id)}><i className="fa fa-trash text-danger"/></button></td>
                                                 </tr>
                                             ))}
                                         </tbody>

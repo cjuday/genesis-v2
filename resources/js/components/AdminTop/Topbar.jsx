@@ -8,7 +8,7 @@ function Topbar() {
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="topbar">
                 <div className="container-fluid" id="topbar-container sidebar-toggle">
-                    <img src={Logo} className="dark-logo" height="50px"/>
+                    <img src={Logo} alt="logo" className="dark-logo" height="50px"/>
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item active">
                             Welcome, {user.name} | <Link href='/logout' as="button" method="post" className="logout"><i className="fa fa-right-from-bracket logout-icon" /></Link>

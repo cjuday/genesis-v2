@@ -47,7 +47,7 @@ function Login() {
                             {errors.password && <div><span className="text-danger text-sm">{errors.password}</span></div>}
                         </div>
                         <div className="d-grid mt-2">
-                            <button className="btn btn-light btn-outline-custom" type="submit" disabled={processing}>
+                            <button aria-label="signingIn" className="btn btn-light btn-outline-custom" type="submit" disabled={processing}>
                                 {processing ? 'Signing In...' : 'Sign In'}
                             </button>
                         </div>

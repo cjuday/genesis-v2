@@ -147,10 +147,10 @@ const UploadModal = ({ isOpen, closeModal}) => {
                             )}
                     </div>
                     <div className="modal-footer">
-                    <button type="button" className="btn btn-secondary" onClick={handleCloseModal}>
+                    <button type="button" aria-label="cancel" className="btn btn-secondary" onClick={handleCloseModal}>
                         Cancel
                     </button>
-                    <button type="button" className="btn btn-success" onClick={handleUpload}>
+                    <button type="button" aria-label="upload" className="btn btn-success" onClick={handleUpload}>
                         Upload
                     </button>
                     </div>

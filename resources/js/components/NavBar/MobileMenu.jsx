@@ -13,7 +13,7 @@ const MobileMenu = ({show, onClose}) => {
                     <Logo image={LogoImg}/>
                 </div>
                 <div className="mobile-menu-close">
-                    <button className="toggle" onClick={onClose}>
+                    <button aria-label="toggle" className="toggle" onClick={onClose}>
                         <i className="icon-top"></i>
                         <i className="icon-bottom"></i>
                     </button>

@@ -27,7 +27,7 @@ const CategoryNav = ({ classOption }) => {
             <div className={`messonry-button ${classOption} pt-5`}>
                     {brnData.map((cat) => 
                         <Link reloadDocument key={cat.id} to={`/products/${cat.name}/All`}>
-                            <button id={cat.id}><span className="filter-text catbox">{cat.name}</span></button>
+                            <button id={cat.id} aria-label={`${cat.id}`}><span className="filter-text catbox">{cat.name}</span></button>
                         </Link>
                     )}
             </div>

@@ -72,7 +72,7 @@ const NavBar = () => {
         <li><a href="/contact"><span className="menu-text">{t('contact')}</span></a></li>
         <li className="nav-item dropdown" ref={dropdownRef}>
           <a href="#" className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src={currentLanguage.flag} className="flag" alt={`${currentLanguage.label} flag`} /> {currentLanguage.label}
+            <img src={currentLanguage.flag} className="flag" alt="flag" /> {currentLanguage.label}
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             {languages.filter(lang => lang.code !== i18n.language).map((lang) => (

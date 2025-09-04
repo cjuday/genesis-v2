@@ -75,39 +75,39 @@ const Header = () => {
                   <NavBar />
                 </div>
 
-                <div className="header-mobile-menu-toggle d-xl-none ms-sm-2">
+                <ul className="header-mobile-menu-toggle d-xl-none ms-sm-2">
                   <li className="nav-item dropdown langli">
                     <a href="#" className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      {i18n.language === 'en' && <><img src={UK} className="flag" /> EN</>}
-                      {i18n.language === 'fr' && <><img src={France} className="flag" /> FR</>}
-                      {i18n.language === 'es' && <><img src={Spain} className="flag" /> ES</>}
-                      {i18n.language === 'de' && <><img src={Germany} className="flag" /> DE</>}
-                      {i18n.language === 'it' && <><img src={Italy} className="flag" /> IT</>}
+                      {i18n.language === 'en' && <><img src={UK} className="flag" alt="flag" /> EN</>}
+                      {i18n.language === 'fr' && <><img src={France} className="flag" alt="flag" /> FR</>}
+                      {i18n.language === 'es' && <><img src={Spain} className="flag" alt="flag" /> ES</>}
+                      {i18n.language === 'de' && <><img src={Germany} className="flag" alt="flag" /> DE</>}
+                      {i18n.language === 'it' && <><img src={Italy} className="flag" alt="flag" /> IT</>}
                     </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       {i18n.language !== 'en' && (
-                        <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('en'); }}><img src={UK} className="flag" /> EN</a></li>
+                        <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('en'); }}><img src={UK} className="flag" alt="flag" /> EN</a></li>
                       )}
                       {i18n.language !== 'fr' && (
-                        <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('fr'); }}><img src={France} className="flag" /> FR</a></li>
+                        <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('fr'); }}><img src={France} className="flag" alt="flag" /> FR</a></li>
                       )}
                       {i18n.language !== 'es' && (
-                        <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('es'); }}><img src={Spain} className="flag" /> ES</a></li>
+                        <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('es'); }}><img src={Spain} className="flag" alt="flag" /> ES</a></li>
                       )}
                       {i18n.language !== 'de' && (
-                        <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('de'); }}><img src={Germany} className="flag" /> DE</a></li>
+                        <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('de'); }}><img src={Germany} className="flag" alt="flag" /> DE</a></li>
                       )}
                       {i18n.language !== 'it' && (
-                        <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('it'); }}><img src={Italy} className="flag" /> IT</a></li>
+                        <li><a href="#" className="dropdown-item langli" onClick={(e) => { e.preventDefault(); changeLanguage('it'); }}><img src={Italy} className="flag" alt="flag" /> IT</a></li>
                       )}
                     </ul>
                   </li>
-                  <button type="button" className="toggle mob" onClick={onCanvasHandler}>
+                  <button type="button" aria-label="toggler" className="toggle mob" onClick={onCanvasHandler}>
                     <i className="icon-top"></i>
                     <i className="icon-middle"></i>
                     <i className="icon-bottom"></i>
                   </button>
-                </div>
+                </ul>
               </div>
             </div>
           </div>
