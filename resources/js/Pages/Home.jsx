@@ -11,7 +11,10 @@ import AOS from 'aos';
 
 const Home = () => {
     useEffect(() => {
-        AOS.init();
+        AOS.init({
+            throttleDelay: 99, // avoids spamming calculations
+            debounceDelay: 50, // smoother resize handling
+        });
     })
     return(
        <React.Fragment>
