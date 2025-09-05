@@ -1,15 +1,17 @@
-import React, { useEffect } from "react";
+import React, { useEffect, lazy, Suspense } from "react";
 import SEO from '../components/SEO';
-import Header from '../partials/header/Header';
-import IntroSlider from "../container/IntroSlider/IntroSlider";
-import HomeAbout from '../components/About/HomeAbout';
-import BrandContainer from "../container/Brand/BrandContainer";
-import CertContainer from "../container/Certificate/CertContainer";
-import Footer from '../container/Footer/Footer';
 import ScrollToTop from '../components/ScrollToTop';
 
+// Lazy-loaded components
+const Header = lazy(() => import('../partials/header/Header'));
+const IntroSlider = lazy(() => import("../container/IntroSlider/IntroSlider"));
+const HomeAbout = lazy(() => import('../components/About/HomeAbout'));
+const BrandContainer = lazy(() => import("../container/Brand/BrandContainer"));
+const CertContainer = lazy(() => import("../container/Certificate/CertContainer"));
+const Footer = lazy(() => import('../container/Footer/Footer'));
+
 const Home = () => {
-     useEffect(() => {
+    useEffect(() => {
         import('aos').then(AOS => {
             AOS.init({
                 throttleDelay: 99,
@@ -19,18 +21,31 @@ const Home = () => {
         });
     }, []);
 
-    return(
-       <React.Fragment>
-            <SEO title="Genesis - One Stop Business Soulution in Bangladesh" />
-            <Header/>
-            <IntroSlider/>
-            <HomeAbout/> 
-            <BrandContainer/> 
-            <CertContainer/>  
-            <Footer/>
-            <ScrollToTop/>
-       </React.Fragment>
-    )
+    return (
+        <React.Fragment>
+            <SEO title="Genesis - One Stop Business Solution in Bangladesh" />
+                <Header />
+                <IntroSlider />
+
+            <Suspense>
+                <HomeAbout />
+            </Suspense>
+
+            <Suspense>
+                <BrandContainer />
+            </Suspense>
+
+            <Suspense>
+                <CertContainer />
+            </Suspense>
+
+            <Suspense>
+                <Footer />
+            </Suspense>
+
+            <ScrollToTop />
+        </React.Fragment>
+    );
 }
 
-export default Home
+export default Home;
