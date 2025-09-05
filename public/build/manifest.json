@@ -1,32 +1,24 @@
 {
-  "_Breadcrumb-C0YBDPEm.js": {
-    "file": "assets/Breadcrumb-C0YBDPEm.js",
+  "_Breadcrumb-DcQF6JzJ.js": {
+    "file": "assets/Breadcrumb-DcQF6JzJ.js",
     "name": "Breadcrumb",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_SEO-3zmb6xf4.js": {
-    "file": "assets/SEO-3zmb6xf4.js",
+  "_SEO-DRTQK8Dm.js": {
+    "file": "assets/SEO-DRTQK8Dm.js",
     "name": "SEO",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_SectionTitle-CLyeLWMu.js": {
-    "file": "assets/SectionTitle-CLyeLWMu.js",
-    "name": "SectionTitle",
-    "imports": [
-      "_SEO-3zmb6xf4.js",
-      "resources/js/app.jsx"
-    ]
-  },
-  "_aos-C6OkSEAv.js": {
-    "file": "assets/aos-C6OkSEAv.js",
-    "name": "aos",
+  "_ScrollToTop-Df1SU920.js": {
+    "file": "assets/ScrollToTop-Df1SU920.js",
+    "name": "ScrollToTop",
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-3zmb6xf4.js",
+      "_SEO-DRTQK8Dm.js",
       "_logo-BmcBXPtN.js"
     ],
     "assets": [
@@ -37,11 +29,27 @@
       "assets/italy-Btu6LTlH.png"
     ]
   },
-  "_index-CTNKCM2k.js": {
-    "file": "assets/index-CTNKCM2k.js",
+  "_SectionTitle-D3wsB1Ng.js": {
+    "file": "assets/SectionTitle-D3wsB1Ng.js",
+    "name": "SectionTitle",
+    "imports": [
+      "_SEO-DRTQK8Dm.js",
+      "resources/js/app.jsx"
+    ]
+  },
+  "_aos-fbcIFLde.js": {
+    "file": "assets/aos-fbcIFLde.js",
+    "name": "aos",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_index-DoIzLxf7.js": {
+    "file": "assets/index-DoIzLxf7.js",
     "name": "index",
     "imports": [
-      "_SEO-3zmb6xf4.js",
+      "_SEO-DRTQK8Dm.js",
       "resources/js/app.jsx"
     ]
   },
@@ -58,16 +66,17 @@
     "isEntry": true
   },
   "resources/js/Pages/About.jsx": {
-    "file": "assets/About-BcemDaw1.js",
+    "file": "assets/About-Chc_bdlG.js",
     "name": "About",
     "src": "resources/js/Pages/About.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-3zmb6xf4.js",
-      "_aos-C6OkSEAv.js",
-      "_Breadcrumb-C0YBDPEm.js",
-      "_index-CTNKCM2k.js",
+      "_SEO-DRTQK8Dm.js",
+      "_ScrollToTop-Df1SU920.js",
+      "_Breadcrumb-DcQF6JzJ.js",
+      "_index-DoIzLxf7.js",
+      "_aos-fbcIFLde.js",
       "_logo-BmcBXPtN.js"
     ],
     "assets": [
@@ -83,16 +92,17 @@
     ]
   },
   "resources/js/Pages/Contact.jsx": {
-    "file": "assets/Contact--hTsVzMm.js",
+    "file": "assets/Contact-DvguPZks.js",
     "name": "Contact",
     "src": "resources/js/Pages/Contact.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-3zmb6xf4.js",
-      "_aos-C6OkSEAv.js",
-      "_Breadcrumb-C0YBDPEm.js",
-      "_SectionTitle-CLyeLWMu.js",
+      "_SEO-DRTQK8Dm.js",
+      "_ScrollToTop-Df1SU920.js",
+      "_Breadcrumb-DcQF6JzJ.js",
+      "_aos-fbcIFLde.js",
+      "_SectionTitle-D3wsB1Ng.js",
       "_logo-BmcBXPtN.js"
     ],
     "assets": [
@@ -100,28 +110,31 @@
     ]
   },
   "resources/js/Pages/Dashboard.jsx": {
-    "file": "assets/Dashboard-CUXOfA25.js",
+    "file": "assets/Dashboard-s4fbkj6m.js",
     "name": "Dashboard",
     "src": "resources/js/Pages/Dashboard.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-3zmb6xf4.js",
+      "_SEO-DRTQK8Dm.js",
       "_logo-BmcBXPtN.js"
     ]
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home-BcBdEcLB.js",
+    "file": "assets/Home-DAcBYluk.js",
     "name": "Home",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-3zmb6xf4.js",
-      "_aos-C6OkSEAv.js",
-      "_SectionTitle-CLyeLWMu.js",
-      "_index-CTNKCM2k.js",
+      "_SEO-DRTQK8Dm.js",
+      "_ScrollToTop-Df1SU920.js",
+      "_SectionTitle-D3wsB1Ng.js",
+      "_index-DoIzLxf7.js",
       "_logo-BmcBXPtN.js"
+    ],
+    "dynamicImports": [
+      "_aos-fbcIFLde.js"
     ],
     "assets": [
       "assets/1672228480-BvETGix-.webp",
@@ -145,38 +158,40 @@
     ]
   },
   "resources/js/Pages/Items.jsx": {
-    "file": "assets/Items-DaGftGu4.js",
+    "file": "assets/Items-BVYH76YN.js",
     "name": "Items",
     "src": "resources/js/Pages/Items.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-3zmb6xf4.js",
-      "_aos-C6OkSEAv.js",
+      "_SEO-DRTQK8Dm.js",
+      "_ScrollToTop-Df1SU920.js",
+      "_aos-fbcIFLde.js",
       "_logo-BmcBXPtN.js"
     ]
   },
   "resources/js/Pages/Login.jsx": {
-    "file": "assets/Login-fWuHfO7p.js",
+    "file": "assets/Login-qgQcNzdU.js",
     "name": "Login",
     "src": "resources/js/Pages/Login.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-3zmb6xf4.js"
+      "_SEO-DRTQK8Dm.js"
     ]
   },
   "resources/js/Pages/Products.jsx": {
-    "file": "assets/Products-BkuOBT1d.js",
+    "file": "assets/Products-BMGa99XW.js",
     "name": "Products",
     "src": "resources/js/Pages/Products.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-3zmb6xf4.js",
-      "_aos-C6OkSEAv.js",
-      "_Breadcrumb-C0YBDPEm.js",
-      "_SectionTitle-CLyeLWMu.js",
+      "_SEO-DRTQK8Dm.js",
+      "_ScrollToTop-Df1SU920.js",
+      "_Breadcrumb-DcQF6JzJ.js",
+      "_aos-fbcIFLde.js",
+      "_SectionTitle-D3wsB1Ng.js",
       "_logo-BmcBXPtN.js"
     ],
     "assets": [
@@ -187,16 +202,17 @@
     ]
   },
   "resources/js/Pages/Services.jsx": {
-    "file": "assets/Services-CGcen5nA.js",
+    "file": "assets/Services-DZzBKzOS.js",
     "name": "Services",
     "src": "resources/js/Pages/Services.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-3zmb6xf4.js",
-      "_aos-C6OkSEAv.js",
-      "_Breadcrumb-C0YBDPEm.js",
-      "_SectionTitle-CLyeLWMu.js",
+      "_SEO-DRTQK8Dm.js",
+      "_ScrollToTop-Df1SU920.js",
+      "_Breadcrumb-DcQF6JzJ.js",
+      "_SectionTitle-D3wsB1Ng.js",
+      "_aos-fbcIFLde.js",
       "_logo-BmcBXPtN.js"
     ],
     "assets": [
@@ -213,7 +229,7 @@
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-NqzcSlMZ.js",
+    "file": "assets/app-CQqmk51l.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,

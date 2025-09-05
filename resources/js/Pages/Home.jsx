@@ -7,15 +7,18 @@ import BrandContainer from "../container/Brand/BrandContainer";
 import CertContainer from "../container/Certificate/CertContainer";
 import Footer from '../container/Footer/Footer';
 import ScrollToTop from '../components/ScrollToTop';
-import AOS from 'aos';
 
 const Home = () => {
-    useEffect(() => {
-        AOS.init({
-            throttleDelay: 99, // avoids spamming calculations
-            debounceDelay: 50, // smoother resize handling
+     useEffect(() => {
+        import('aos').then(AOS => {
+            AOS.init({
+                throttleDelay: 99,
+                debounceDelay: 50,
+                once: true, // animate only once
+            });
         });
-    })
+    }, []);
+
     return(
        <React.Fragment>
             <SEO title="Genesis - One Stop Business Soulution in Bangladesh" />
