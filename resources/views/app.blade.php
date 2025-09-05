@@ -33,14 +33,15 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" media="print" onload="this.media='all'">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" media="print" onload="this.media='all'">
 
-        <!-- ✅ Google Fonts (merged + display=swap) -->
-        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Caveat:wght@400;500;600;700&family=Josefin+Sans:wght@400;700&family=Raleway:wght@400;700&family=Playfair+Display:wght@400;700&family=Indie+Flower&family=Charm:wght@400;700&display=swap" rel="stylesheet">
-
-        <!-- Preconnect for faster font load -->
+        <!-- ✅ Google Fonts (preconnect + preload + non-blocking load) -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Caveat:wght@400;500;600;700&family=Josefin+Sans:wght@400;700&family=Raleway:wght@400;700&family=Playfair+Display:wght@400;700&family=Indie+Flower&family=Charm:wght@400;700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Caveat:wght@400;500;600;700&family=Josefin+Sans:wght@400;700&family=Raleway:wght@400;700&family=Playfair+Display:wght@400;700&family=Indie+Flower&family=Charm:wght@400;700&display=swap" media="print" onload="this.media='all'">
+        <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Caveat:wght@400;500;600;700&family=Josefin+Sans:wght@400;700&family=Raleway:wght@400;700&family=Playfair+Display:wght@400;700&family=Indie+Flower&family=Charm:wght@400;700&display=swap">
+        </noscript>
     </head>
-
     <body>
         @inertia
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" defer></script>
