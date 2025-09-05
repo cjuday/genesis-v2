@@ -1,32 +1,32 @@
 {
-  "_Breadcrumb-Bwyadax3.js": {
-    "file": "assets/Breadcrumb-Bwyadax3.js",
+  "_Breadcrumb-dqAhO6x-.js": {
+    "file": "assets/Breadcrumb-dqAhO6x-.js",
     "name": "Breadcrumb",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_SEO-B7h3dwd-.js": {
-    "file": "assets/SEO-B7h3dwd-.js",
+  "_SEO-rkRoPhie.js": {
+    "file": "assets/SEO-rkRoPhie.js",
     "name": "SEO",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_SectionTitle-T2mEEvGG.js": {
-    "file": "assets/SectionTitle-T2mEEvGG.js",
+  "_SectionTitle-DyeFfaUJ.js": {
+    "file": "assets/SectionTitle-DyeFfaUJ.js",
     "name": "SectionTitle",
     "imports": [
-      "_SEO-B7h3dwd-.js",
+      "_SEO-rkRoPhie.js",
       "resources/js/app.jsx"
     ]
   },
-  "_aos-CYgpZ5no.js": {
-    "file": "assets/aos-CYgpZ5no.js",
+  "_aos-DG1rxGsP.js": {
+    "file": "assets/aos-DG1rxGsP.js",
     "name": "aos",
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-B7h3dwd-.js",
+      "_SEO-rkRoPhie.js",
       "_logo-BmcBXPtN.js"
     ],
     "assets": [
@@ -37,11 +37,11 @@
       "assets/italy-Btu6LTlH.png"
     ]
   },
-  "_index-CjsXYqjQ.js": {
-    "file": "assets/index-CjsXYqjQ.js",
+  "_index-DVMhidqq.js": {
+    "file": "assets/index-DVMhidqq.js",
     "name": "index",
     "imports": [
-      "_SEO-B7h3dwd-.js",
+      "_SEO-rkRoPhie.js",
       "resources/js/app.jsx"
     ]
   },
@@ -58,16 +58,16 @@
     "isEntry": true
   },
   "resources/js/Pages/About.jsx": {
-    "file": "assets/About-xQpwt9Ym.js",
+    "file": "assets/About-C7OzWDGA.js",
     "name": "About",
     "src": "resources/js/Pages/About.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-B7h3dwd-.js",
-      "_aos-CYgpZ5no.js",
-      "_Breadcrumb-Bwyadax3.js",
-      "_index-CjsXYqjQ.js",
+      "_SEO-rkRoPhie.js",
+      "_aos-DG1rxGsP.js",
+      "_Breadcrumb-dqAhO6x-.js",
+      "_index-DVMhidqq.js",
       "_logo-BmcBXPtN.js"
     ],
     "assets": [
@@ -83,16 +83,16 @@
     ]
   },
   "resources/js/Pages/Contact.jsx": {
-    "file": "assets/Contact-O5itJ5SV.js",
+    "file": "assets/Contact-BqysBlAU.js",
     "name": "Contact",
     "src": "resources/js/Pages/Contact.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-B7h3dwd-.js",
-      "_aos-CYgpZ5no.js",
-      "_Breadcrumb-Bwyadax3.js",
-      "_SectionTitle-T2mEEvGG.js",
+      "_SEO-rkRoPhie.js",
+      "_aos-DG1rxGsP.js",
+      "_Breadcrumb-dqAhO6x-.js",
+      "_SectionTitle-DyeFfaUJ.js",
       "_logo-BmcBXPtN.js"
     ],
     "assets": [
@@ -100,27 +100,27 @@
     ]
   },
   "resources/js/Pages/Dashboard.jsx": {
-    "file": "assets/Dashboard-wHdihiT0.js",
+    "file": "assets/Dashboard-CLNcWAcx.js",
     "name": "Dashboard",
     "src": "resources/js/Pages/Dashboard.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-B7h3dwd-.js",
+      "_SEO-rkRoPhie.js",
       "_logo-BmcBXPtN.js"
     ]
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home-vFPNvOCf.js",
+    "file": "assets/Home-C1a_ciBW.js",
     "name": "Home",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-B7h3dwd-.js",
-      "_aos-CYgpZ5no.js",
-      "_SectionTitle-T2mEEvGG.js",
-      "_index-CjsXYqjQ.js",
+      "_SEO-rkRoPhie.js",
+      "_aos-DG1rxGsP.js",
+      "_SectionTitle-DyeFfaUJ.js",
+      "_index-DVMhidqq.js",
       "_logo-BmcBXPtN.js"
     ],
     "assets": [
@@ -129,12 +129,12 @@
       "assets/1672054675-DWJ5Mizv.webp",
       "assets/1671523831-4fj4kWJf.webp",
       "assets/1671523887-DjaEiuQC.webp",
-      "assets/1-BIji0eFs.png",
-      "assets/2-D8gGgmwL.png",
-      "assets/3-IKYbZyQL.png",
-      "assets/4-Cl6jfwH3.png",
-      "assets/5-BEi77x8t.png",
-      "assets/6-BqVtlJEw.png",
+      "assets/1-hG3wO6Wd.webp",
+      "assets/2-DHAY4A0d.webp",
+      "assets/3-D_p9UUEv.webp",
+      "assets/4-C5h0Wpj4.webp",
+      "assets/5-7zwpfk8g.webp",
+      "assets/6-C25aOpiJ.webp",
       "assets/1671859315-C5fuetY5.webp",
       "assets/1671944243-MQuAgena.webp",
       "assets/1671944421-BVR1O7sm.webp",
@@ -145,38 +145,38 @@
     ]
   },
   "resources/js/Pages/Items.jsx": {
-    "file": "assets/Items-DaTialbq.js",
+    "file": "assets/Items-CqSNPHn6.js",
     "name": "Items",
     "src": "resources/js/Pages/Items.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-B7h3dwd-.js",
-      "_aos-CYgpZ5no.js",
+      "_SEO-rkRoPhie.js",
+      "_aos-DG1rxGsP.js",
       "_logo-BmcBXPtN.js"
     ]
   },
   "resources/js/Pages/Login.jsx": {
-    "file": "assets/Login-CZD0M4Pd.js",
+    "file": "assets/Login-DeYiX_I2.js",
     "name": "Login",
     "src": "resources/js/Pages/Login.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-B7h3dwd-.js"
+      "_SEO-rkRoPhie.js"
     ]
   },
   "resources/js/Pages/Products.jsx": {
-    "file": "assets/Products-wZf_CZO2.js",
+    "file": "assets/Products-CPtzX5AN.js",
     "name": "Products",
     "src": "resources/js/Pages/Products.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-B7h3dwd-.js",
-      "_aos-CYgpZ5no.js",
-      "_Breadcrumb-Bwyadax3.js",
-      "_SectionTitle-T2mEEvGG.js",
+      "_SEO-rkRoPhie.js",
+      "_aos-DG1rxGsP.js",
+      "_Breadcrumb-dqAhO6x-.js",
+      "_SectionTitle-DyeFfaUJ.js",
       "_logo-BmcBXPtN.js"
     ],
     "assets": [
@@ -187,16 +187,16 @@
     ]
   },
   "resources/js/Pages/Services.jsx": {
-    "file": "assets/Services-CtpQ8ncv.js",
+    "file": "assets/Services-BUfRPNBt.js",
     "name": "Services",
     "src": "resources/js/Pages/Services.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_SEO-B7h3dwd-.js",
-      "_aos-CYgpZ5no.js",
-      "_Breadcrumb-Bwyadax3.js",
-      "_SectionTitle-T2mEEvGG.js",
+      "_SEO-rkRoPhie.js",
+      "_aos-DG1rxGsP.js",
+      "_Breadcrumb-dqAhO6x-.js",
+      "_SectionTitle-DyeFfaUJ.js",
       "_logo-BmcBXPtN.js"
     ],
     "assets": [
@@ -213,7 +213,7 @@
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-VtVcRC5h.js",
+    "file": "assets/app-C1fqyLPH.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
@@ -519,29 +519,29 @@
     "file": "assets/mobile-bg-Hfhsyuyo.jpg",
     "src": "resources/js/assets/images/background/mobile-bg.jpg"
   },
-  "resources/js/assets/images/brands/1.png": {
-    "file": "assets/1-BIji0eFs.png",
-    "src": "resources/js/assets/images/brands/1.png"
+  "resources/js/assets/images/brands/1.webp": {
+    "file": "assets/1-hG3wO6Wd.webp",
+    "src": "resources/js/assets/images/brands/1.webp"
   },
-  "resources/js/assets/images/brands/2.png": {
-    "file": "assets/2-D8gGgmwL.png",
-    "src": "resources/js/assets/images/brands/2.png"
+  "resources/js/assets/images/brands/2.webp": {
+    "file": "assets/2-DHAY4A0d.webp",
+    "src": "resources/js/assets/images/brands/2.webp"
   },
-  "resources/js/assets/images/brands/3.png": {
-    "file": "assets/3-IKYbZyQL.png",
-    "src": "resources/js/assets/images/brands/3.png"
+  "resources/js/assets/images/brands/3.webp": {
+    "file": "assets/3-D_p9UUEv.webp",
+    "src": "resources/js/assets/images/brands/3.webp"
   },
-  "resources/js/assets/images/brands/4.png": {
-    "file": "assets/4-Cl6jfwH3.png",
-    "src": "resources/js/assets/images/brands/4.png"
+  "resources/js/assets/images/brands/4.webp": {
+    "file": "assets/4-C5h0Wpj4.webp",
+    "src": "resources/js/assets/images/brands/4.webp"
   },
-  "resources/js/assets/images/brands/5.png": {
-    "file": "assets/5-BEi77x8t.png",
-    "src": "resources/js/assets/images/brands/5.png"
+  "resources/js/assets/images/brands/5.webp": {
+    "file": "assets/5-7zwpfk8g.webp",
+    "src": "resources/js/assets/images/brands/5.webp"
   },
-  "resources/js/assets/images/brands/6.png": {
-    "file": "assets/6-BqVtlJEw.png",
-    "src": "resources/js/assets/images/brands/6.png"
+  "resources/js/assets/images/brands/6.webp": {
+    "file": "assets/6-C25aOpiJ.webp",
+    "src": "resources/js/assets/images/brands/6.webp"
   },
   "resources/js/assets/images/category/1671598701.jpg": {
     "file": "assets/1671598701-OZI45FBo.jpg",
