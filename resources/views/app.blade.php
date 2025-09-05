@@ -23,15 +23,9 @@
         <link rel="preload" as="style" href="{{ asset('css/font-awesome/all.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/font-awesome/all.min.css') }}" media="print" onload="this.media='all'">
 
-        <!-- Google Fonts (self-hosted, non-blocking) -->
-        <link rel="preload" as="style" href="{{ asset('css/fonts/google-fonts.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/fonts/google-fonts.css') }}" media="print" onload="this.media='all'">
-
         <!-- Fallback for no-JS -->
         <noscript>
-            <link rel="stylesheet" href="{{ asset('css/bootstrap/bootstrap.min.css') }}">
             <link rel="stylesheet" href="{{ asset('css/font-awesome/all.min.css') }}">
-            <link rel="stylesheet" href="{{ asset('css/fonts/google-fonts.css') }}">
         </noscript>
     </head>
     <body>
