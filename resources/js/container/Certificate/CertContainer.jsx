@@ -5,13 +5,13 @@ import SectionTitleTwo from '../../components/SectionTitles/SectionTitleTwo';
 import Swiper, { SwiperSlide } from "../../components/swiper";
 
 //images
-import img1 from '../../assets/images/certs/1671859315.png';
-import img2 from '../../assets/images/certs/1671944243.jpg';
-import img3 from '../../assets/images/certs/1671944421.jpg';
-import img4 from '../../assets/images/certs/1671946652.jpg';
-import img5 from '../../assets/images/certs/1671946883.png';
-import img6 from '../../assets/images/certs/1671946894.png';
-import img7 from '../../assets/images/certs/1671947178.jpg';
+import img1 from '../../assets/images/certs/1671859315.webp';
+import img2 from '../../assets/images/certs/1671944243.webp';
+import img3 from '../../assets/images/certs/1671944421.webp';
+import img4 from '../../assets/images/certs/1671946652.webp';
+import img5 from '../../assets/images/certs/1671946883.webp';
+import img6 from '../../assets/images/certs/1671946894.webp';
+import img7 from '../../assets/images/certs/1671947178.webp';
 
 const CertContainer = ({classOption="brand-section section" }) => {
     const { t } = useTranslation();
