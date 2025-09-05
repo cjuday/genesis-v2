@@ -19,10 +19,6 @@
         @vite(['resources/css/app.css','resources/js/app.jsx'])
         @inertiaHead
 
-        <!-- Bootstrap (non-blocking) -->
-        <link rel="preload" as="style" href="{{ asset('css/bootstrap.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" media="print" onload="this.media='all'">
-
         <!-- Font Awesome (non-blocking) -->
         <link rel="preload" as="style" href="{{ asset('css/font-awesome/all.min.css') }}">
         <link rel="stylesheet" href="{{ asset('css/font-awesome/all.min.css') }}" media="print" onload="this.media='all'">
@@ -40,6 +36,5 @@
     </head>
     <body>
         @inertia
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" defer></script>
     </body>
 </html>
