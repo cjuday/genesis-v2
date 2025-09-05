@@ -33,7 +33,7 @@
 
         <!-- Fallback for no-JS -->
         <noscript>
-            <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('css/bootstrap/bootstrap.min.css') }}">
             <link rel="stylesheet" href="{{ asset('css/font-awesome/all.min.css') }}">
             <link rel="stylesheet" href="{{ asset('css/fonts/google-fonts.css') }}">
         </noscript>
