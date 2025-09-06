@@ -9,7 +9,8 @@ import UK from '../../assets/images/flags/united-kingdom.png';
 import Germany from '../../assets/images/flags/germany.png';
 import Spain from '../../assets/images/flags/spain.png';
 import Italy from '../../assets/images/flags/italy.png';
-import LogoImg from '../../assets/images/logo/logo.png';
+import LogoImg from '../../assets/images/logo/logo_pc.webp';
+import LogoImg2 from '../../assets/images/logo/logo_mobile.webp';
 
 const Header = () => {
   const { t, i18n } = useTranslation(); // Destructure t and i18n
@@ -68,7 +69,7 @@ const Header = () => {
             <hr id='navx' />
             <div className="row justify-content-between align-items-center">
               <div className="col-xl-2 col-auto order-0">
-                <Logo image={LogoImg} />
+                <Logo image={LogoImg} image2={LogoImg2} />
               </div>
               <div className="col-auto col-xl d-flex align-items-right justify-content-xl-right justify-content-end order-2 order-xl-1">
                 <div className="menu-column-area d-none d-xl-block position-static">

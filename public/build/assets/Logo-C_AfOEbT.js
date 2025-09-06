@@ -1,1 +1,0 @@
-import{P as a}from"./SEO-CPXvA_SV.js";import{R as e}from"./app-Dj3-KQZ_.js";const o=({image:r})=>e.createElement("div",{className:"header-logo"},e.createElement("a",{href:"/"},e.createElement("img",{className:"dark-logo",src:r,alt:"Agency Logo"})));o.propTypes={image:a.string};export{o as L};
